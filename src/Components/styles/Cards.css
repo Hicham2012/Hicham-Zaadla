@@ -1,0 +1,393 @@
+/* default turn */
+
+.card-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+    height: 52.5%;
+    /* left: 20%; */
+    z-index: 2;
+    /* border: 1px solid red; */
+    transition: none;
+    animation: none;
+}
+
+.proj-title {
+    position: absolute;
+    bottom: -1%;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    /* line-height: 83px; */
+    text-align: center;
+    color: #000000;
+    background: rgb(255, 255, 255);
+}
+
+.proj-describtion {
+    position: absolute;
+    top: 0%;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 120%;
+    text-align: center;
+    color: hsl(0, 0%, 0%);
+    width: 100%;
+    /* border: 1px solid green; */
+    background: rgba(128, 128, 128, 0.463);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 500ms ease;
+    z-index: 1;
+    position: relative;
+}
+
+.aa {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proj-describtion>.aa>a {
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+}
+
+.proj-describtion>.aa>a::before {
+    content: '';
+    background: #22FF38;
+    width: 0%;
+    height: 17px;
+    position: absolute;
+    z-index: -1;
+    transition: 200ms ease-in-out;
+}
+
+.proj-describtion>.aa>a:hover:before {
+    width: 100%;
+}
+
+.proj-describtion>a:hover {
+    transform-origin: 0% 50%;
+}
+
+.proj-describtion:hover {
+    opacity: 1;
+}
+
+.card-container-2:nth-child(2) {
+    left: -6%;
+    top: 12.5%;
+    transform: rotate(-30deg);
+    transition: none;
+    animation: none;
+}
+
+.card-container-2:nth-child(3) {
+    z-index: 4;
+    transition: none;
+    /* animation: arrive 20s ease in; */
+    animation: soss 1s ease;
+}
+
+@keyframes arrive-2 {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.card-container-2:nth-child(4) {
+    left: 6%;
+    top: 12.5%;
+    transform: rotate(30deg);
+    transition: none;
+}
+
+.card-container-2:nth-child(5),
+.card-container-2:nth-child(6),
+.card-container-2:nth-child(7) {
+    display: none;
+}
+
+
+/* first turn */
+
+.card-container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+    height: 52.5%;
+    /* left: 20%; */
+    z-index: 1;
+    /* border: 1px solid red; */
+    transition: none;
+    animation: none;
+}
+
+.card-container-1:nth-child(2) {
+    left: 10%;
+    /* top: 12.5%; */
+    /* transform: rotate(-30deg); */
+    transition: none;
+    z-index: 4;
+}
+
+.card-container-1:nth-child(3) {
+    left: 16%;
+    top: 12.5%;
+    transform: rotate(30deg);
+    transition: none;
+    z-index: 0;
+}
+
+.card-container-2:nth-child(2) {
+    /* left: -6%;
+    top: 12.5%;
+    transform: rotate(-30deg);
+    transition: none; */
+}
+
+.card-container-1:nth-child(4) {
+    display: none;
+}
+
+.card-container-1:nth-child(5),
+.card-container-1:nth-child(6),
+.card-container-1:nth-child(7) {
+    display: none;
+}
+
+
+/*  third turn */
+
+.card-container-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+    height: 52.5%;
+    /* left: 20%; */
+    z-index: 1;
+    /* border: 1px solid red; */
+    transition: none;
+    animation: none;
+}
+
+.card-container-3:nth-child(4) {
+    /* left: 10%; */
+    /* top: 12.5%; */
+    /* transform: rotate(-30deg); */
+    transition: none;
+    z-index: 4;
+}
+
+.card-container-3:nth-child(5) {
+    left: 6%;
+    top: 12.5%;
+    transform: rotate(30deg);
+    transition: none;
+    z-index: 0;
+}
+
+.card-container-3:nth-child(3) {
+    left: -6%;
+    top: 12.5%;
+    transform: rotate(-30deg);
+    transition: none;
+}
+
+.card-container-3:nth-child(2) {
+    display: none;
+}
+
+.card-container-3:nth-child(6) {
+    display: none;
+}
+
+.card-container-3:nth-child(7) {
+    display: none;
+}
+
+
+/*  fourth turn */
+
+.card-container-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+    height: 52.5%;
+    /* left: 20%; */
+    z-index: 1;
+    /* border: 1px solid red; */
+    transition: none;
+    animation: none;
+}
+
+.card-container-4:nth-child(5) {
+    /* left: 10%; */
+    /* top: 12.5%; */
+    /* transform: rotate(-30deg); */
+    transition: none;
+    z-index: 4;
+}
+
+.card-container-4:nth-child(6) {
+    left: 6%;
+    top: 12.5%;
+    transform: rotate(30deg);
+    transition: none;
+    z-index: 0;
+}
+
+.card-container-4:nth-child(4) {
+    left: -6%;
+    top: 12.5%;
+    transform: rotate(-30deg);
+    transition: none;
+}
+
+.card-container-4:nth-child(2) {
+    display: none;
+}
+
+.card-container-4:nth-child(1) {
+    display: none;
+}
+
+.card-container-4:nth-child(3) {
+    display: none;
+}
+
+.card-container-4:nth-child(7) {
+    display: none;
+}
+
+
+/* fifth turn */
+
+.card-container-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+    height: 52.5%;
+    /* left: 20%; */
+    z-index: 1;
+    /* border: 1px solid red; */
+    transition: none;
+    animation: none;
+}
+
+.card-container-5:nth-child(7) {
+    left: 6%;
+    top: 12.5%;
+    transform: rotate(30deg);
+    transition: none;
+    z-index: 0;
+}
+
+.card-container-5:nth-child(2) {
+    /* left: 16%;
+    top: 12.5%;
+    transform: rotate(30deg);
+    transition: none;
+    z-index: 0; */
+    display: none;
+}
+
+.card-container-5:nth-child(5) {
+    left: -6%;
+    top: 12.5%;
+    transform: rotate(-30deg);
+    transition: none;
+}
+
+.card-container-5:nth-child(1) {
+    display: none;
+}
+
+.card-container-5:nth-child(2),
+.card-container-5:nth-child(3) {
+    display: none;
+}
+
+.card-container-5:nth-child(4) {
+    display: none;
+}
+
+.card-container-5:nth-child(7) {
+    /* display: none; */
+}
+
+
+/* sixth turn */
+
+.card-container-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+    height: 52.5%;
+    /* left: 20%; */
+    z-index: 1;
+    /* border: 1px solid red; */
+    transition: none;
+    animation: none;
+}
+
+.card-container-6:nth-child(7) {
+    left: -10%;
+    /* top: 12.5%; */
+    /* transform: rotate(-30deg); */
+    transition: none;
+    z-index: 4;
+}
+
+.card-container-6:nth-child(3) {
+    left: 16%;
+    top: 12.5%;
+    transform: rotate(30deg);
+    transition: none;
+    z-index: 0;
+}
+
+.card-container-6:nth-child(6) {
+    left: -16%;
+    top: 12.5%;
+    transform: rotate(-30deg);
+    transition: none;
+}
+
+.card-container-6:nth-child(1) {
+    display: none;
+}
+
+.card-container-6:nth-child(2),
+.card-container-6:nth-child(3) {
+    display: none;
+}
+
+.card-container-6:nth-child(4),
+.card-container-6:nth-child(5) {
+    display: none;
+}

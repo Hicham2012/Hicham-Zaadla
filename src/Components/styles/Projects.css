@@ -1,0 +1,761 @@
+.projects-all {
+    cursor: url('https://cdn.discordapp.com/attachments/941095160517894185/1066472779240710284/Ellipse_507.png'), auto;
+    scroll-snap-align: start;
+}
+
+.project-phone {
+    width: 100%;
+    height: 102.5vh;
+    display: none;
+}
+
+.projects-back {
+    position: absolute;
+    width: 100%;
+    height: 102.5vh;
+    /* background: #111111; */
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mask-image: url('./Times\ pics/mask.png');
+    mask-size: 100% 100%;
+    mask-position: 50% 0%;
+    mask-repeat: no-repeat;
+    /* animation: growbg 10s ease; */
+    /* display: none; */
+}
+
+@keyframes growbg {
+    from {
+        mask-size: 1000%;
+    }
+    to {
+        mask-size: cover;
+    }
+}
+
+.circle-gold {
+    /* display: inline-block; */
+    z-index: 10;
+    min-width: 40%;
+    min-height: 70%;
+    /* align-items: center;
+    justify-content: center; */
+    /* left: 617px;
+    top: 1683px; */
+    border: 11px solid #C7CC00;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 8px #303030;
+    filter: drop-shadow(1px 2px 65px #4A4A4A) drop-shadow(-4px 2px 9px rgba(0, 0, 0, 0.45));
+    background: transparent;
+    filter: blur(4px);
+    /* animation: grow 3s ease; */
+    /* position: absolute; */
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0);
+        filter: blur(0px);
+    }
+    to {
+        transform: scale(1);
+        filter: blur(4px);
+    }
+}
+
+.projects {
+    background-image: url('./Times\ pics/mask-nav/rec.png');
+    /* background-color: #0C0D0D; */
+    /* background-size: cover; */
+    padding: 0;
+    width: 100%;
+    height: 102.5vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.arrows {
+    position: absolute;
+    top: 17%;
+    /* animation: arrive 20s ease; */
+}
+
+.right {
+    position: relative;
+    /* top: 223%; */
+    left: 50%;
+    z-index: 4;
+    color: #C7CC00;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: url('https://cdn.discordapp.com/attachments/941095160517894185/1066471557343494245/Ellipse_507.png'), auto;
+}
+
+.left {
+    position: relative;
+    left: -50%;
+    z-index: 4;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: url('https://cdn.discordapp.com/attachments/941095160517894185/1066471557343494245/Ellipse_507.png'), auto;
+}
+
+.right::before {
+    content: '→';
+    color: #C7CC00;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    transition: content 200ms linear;
+}
+
+.left::before {
+    content: '←';
+    color: #C7CC00;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    transition: content 200ms linear;
+}
+
+.right:hover::before {
+    content: '⟶';
+    color: #C7CC00;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    transition: content 200ms linear;
+}
+
+.left:hover::before {
+    content: '⟵';
+    color: #C7CC00;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    transition: content 200ms linear;
+}
+
+.cadre-rec {
+    position: absolute;
+    width: 19%;
+    height: 50.5%;
+    border: 2px solid #22FF38;
+    z-index: 0;
+    /* display: none; */
+}
+
+
+/* System Design info */
+
+.left-side-des {
+    position: absolute;
+    left: 0%;
+    width: 27vw;
+    /* height: 10.5vh; */
+    /* background: red; */
+    z-index: 33;
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-areas: 'fonts' 'colors' 'tech'; */
+    /* align-items: center; */
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-left {
+    display: flex;
+    flex-direction: column;
+    /*grid-template-columns: 1fr;
+    grid-template-rows: 30% 20% 20%;
+    grid-template-areas: 'fonts' 'colors' 'tech'; */
+    /* text-align: left; */
+    gap: 0rem;
+    justify-content: center;
+    position: fixed;
+    top: 10%;
+    align-items: left;
+    /* align-items: center;
+    justify-content: center; */
+    /* position: absolute; */
+    /* top: 59%; */
+    /* text-align: left; */
+    /* left: 0%; */
+    /* height: 0vh; */
+    /* border: 1px solid #22FF38; */
+}
+
+.right-side-des {
+    position: fixed;
+    top: 1%;
+    right: 0%;
+    width: 27vw;
+    height: 100.5vh;
+    /* background: red; */
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.des-fonts>fieldset>legend>h5,
+.colors-col,
+.des-tech>h5 {
+    color: #C7CC00;
+}
+
+.des-fonts {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-area: fonts;
+    grid-template-columns: auto;
+    grid-template-rows: 25% 70%;
+    grid-template-areas: 'fonts-name' 'font-display';
+    /* justify-self: center; */
+}
+
+.des-titles-fonts {
+    display: grid;
+    grid-area: fonts-name;
+    font-family: 'Inter';
+    font-size: 25px;
+    /* color: #FFFFFF; */
+    align-items: center;
+    justify-content: left;
+}
+
+.des-view {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 70%;
+    grid-template-areas: 'view-name' 'view-display';
+    position: absolute;
+    top: 10%;
+}
+
+.des-titles-view {
+    display: grid;
+    grid-area: view-name;
+    font-family: 'Inter';
+    font-size: 25px;
+    /* color: #FFFFFF; */
+    align-items: center;
+    justify-content: left;
+    font-weight: 600;
+}
+
+.des-view-col {
+    grid-area: view-display;
+    width: 300px;
+    height: 400px;
+    border: 1px dashed #C7CC00;
+    /* border-right: none; */
+    border-radius: 10% 0 0 10%;
+    padding: 1rem;
+    /* display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 'view-one view-two' 'view-three view-four' 'view-five view-six'; */
+    /* overflow: scroll; */
+    /* scroll-behavior: smooth;
+    overflow-x: hidden; */
+}
+
+.des-view-col::-webkit-scrollbar {
+    width: 3px;
+}
+
+.des-view-col::-webkit-scrollbar-track {
+    /* background: #111111; */
+    box-shadow: inset 0 0 2px #111111;
+}
+
+.des-view-col::-webkit-scrollbar-thumb {
+    background: #C7CC00;
+}
+
+.view-one {
+    grid-area: view-one;
+    /* border: 1px dashed #C7CC00; */
+    /* background: url(https://cdn.discordapp.com/attachments/941095160517894185/1067123039189344316/screencapture-127-0-0-1-5501-Home-html-2022-12-29-20_28_04.png); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* border-radius: 10% 0% 0% 0%; */
+}
+
+.view-one-ex {
+    grid-area: view-one;
+}
+
+.view-five {
+    grid-area: view-five;
+    /* border: 1px dashed #C7CC00; */
+    /* background: url(https://cdn.discordapp.com/attachments/941095160517894185/1067123039189344316/screencapture-127-0-0-1-5501-Home-html-2022-12-29-20_28_04.png); */
+    background-size: cover;
+    border-radius: 0% 0% 0% 10%;
+}
+
+.view-one:hover,
+.view-one-ex:hover,
+.view-four:hover,
+.view-five:hover {
+    transform: scale(1.2);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    border-radius: 0;
+    transition: 500ms ease;
+}
+
+.view-six {
+    grid-area: view-six;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.view-two {
+    grid-area: view-two;
+    /* border: 1px dashed #C7CC00; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.view-six::after,
+.view-seven::after {
+    content: url(https://cdn.discordapp.com/attachments/941095160517894185/1067477824740536330/face-smile.png);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.view-two::after,
+.view-three::after {
+    content: url(https://cdn.discordapp.com/attachments/941095160517894185/1067126009700307034/Arrow_8.png);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+.view-three,
+.view-seven {
+    grid-area: view-three;
+    /* border: 1px dashed #C7CC00; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.view-four {
+    grid-area: view-four;
+    /* background: url(https://cdn.discordapp.com/attachments/941095160517894185/1067123039189344316/screencapture-127-0-0-1-5501-Home-html-2022-12-29-20_28_04.png); */
+    background-size: cover;
+    /* border-radius: 0% 0% 10% 0%; */
+}
+
+.fonts-col {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    grid-area: font-display;
+}
+
+fieldset {
+    border: 1px dashed #C7CC00;
+    width: 12rem;
+    padding: 0% 5%;
+    color: #C7CC00;
+}
+
+fieldset>legend>h5 {
+    border: 1px dashed #C7CC00;
+    border-radius: 20%;
+    padding: 5px 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+}
+
+.des-colors {
+    display: grid;
+    gap: 1rem;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 0;
+    padding: 0;
+    grid-area: colors;
+    grid-template-columns: auto;
+    grid-template-rows: 25% 70%;
+    grid-template-areas: 'color-name' 'color-display';
+}
+
+.des-titles-colors {
+    grid-area: color-name;
+    font-family: 'Inter';
+    font-size: 25px;
+    /* color: #FFFFFF; */
+}
+
+.colors-col {
+    grid-area: color-display;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.colors-name {
+    margin: .5rem 0;
+    /* padding: 0; */
+}
+
+.border-color {
+    border: 1px dashed #C7CC00;
+    margin: 0;
+}
+
+.des-tech {
+    display: grid;
+    text-align: left;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 1rem;
+    grid-area: tech;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 50%;
+    grid-template-areas: 'tech-name' 'tech-display';
+}
+
+.des-titles-tech {
+    grid-area: tech-name;
+    font-family: 'Inter';
+    font-size: 25px;
+    /* color: #FFFFFF; */
+}
+
+.tech-col {
+    grid-area: tech-display;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    /* background: #22FF38; */
+    margin: 0;
+    padding: 0;
+}
+
+.part-1,
+.part-2 {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 1rem;
+}
+
+.part-2 {
+    /* border: 1px solid #22FF38; */
+    margin-top: .2rem;
+    transform: translateY(-50%);
+}
+
+.tech-col-in {
+    border: 1px dashed #C7CC00;
+    padding: 5px 5px;
+    border-width: 1.5px;
+    border-radius: 0%;
+    color: #C7CC00;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.circles-color {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.des-fonts>fieldset>legend>h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 46px; */
+    margin: 0;
+    position: relative;
+    /* left: -10%; */
+    /* background: #111111; */
+}
+
+.des-fonts>fieldset>p {
+    color: #C7CC00;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 300;
+}
+
+@keyframes arrive {
+    from {
+        z-index: 2;
+    }
+    to {
+        z-index: 4;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .projects-back {
+        mask-image: url('./Times\ pics/mask.png') center center / cover;
+        mask-size: 100% 100%;
+        mask-position: 50% 0%;
+        mask-repeat: no-repeat;
+    }
+    .projects-back {
+        cursor: url('https://cdn.discordapp.com/attachments/941095160517894185/1066472779240710284/Ellipse_507.png'), auto;
+        width: 100%;
+        height: 80vh;
+    }
+    .projects {
+        width: 100%;
+        height: 80vh;
+    }
+    .right-side-des {
+        position: fixed;
+        top: 1%;
+        right: 0%;
+        width: 20vw;
+        height: 170vh;
+    }
+    .left-side-des {
+        position: absolute;
+        left: 0%;
+        width: 27vw;
+    }
+    .all-left {
+        position: fixed;
+        top: 20%;
+        width: 20vw;
+    }
+}
+
+
+/* Ipad Mini */
+
+
+/* @media only screen and (width: 1024px) and (height: 768px) {} */
+
+@media only screen and (max-width: 820px) {
+    .projects-back {
+        display: none;
+    }
+    .projects {
+        display: none;
+    }
+    .project-phone {
+        display: grid;
+        width: 100%;
+        height: 102.5vh;
+        grid-template-rows: 40% 60%;
+        grid-template-areas: 'cont-1' 'cont-2';
+    }
+    .phone-cont-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* width: 100%; */
+        margin: 0;
+        /* border: 1px solid purple; */
+        /* background-color: #22FF38; */
+        grid-area: cont-1;
+    }
+    .ph-visit {
+        /* position: absolute; */
+        background: #111111;
+        position: relative;
+        top: -45%;
+        left: 70%;
+        width: 20%;
+        height: 10%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        color: #C7CC00;
+        font-weight: 300;
+        font-size: 1.2em;
+        border-radius: 0% 0% 10% 10%;
+        text-decoration: none;
+    }
+    .ph-left,
+    .ph-right {
+        width: 10%;
+        background-image: url(https://cdn.discordapp.com/attachments/941095160517894185/1069702061022773248/Arrow_10.png);
+        width: 10px;
+        height: 20px;
+        position: absolute;
+    }
+    .ph-right {
+        transform: rotate(180deg);
+        right: 5%;
+    }
+    .ph-left {
+        left: 5%;
+    }
+    .phone-cont-2 {
+        background: #111111;
+        grid-area: cont-2;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 35% 20% 25%;
+        grid-template-areas: 'col-1' 'col-2' 'col-3' 'col-4';
+    }
+    .ques {
+        font-family: 'Inter', sans-serif;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 1.1em;
+    }
+    .answ,
+    .answ-1 {
+        font-family: 'Inter', sans-serif;
+        color: #C7CC00;
+        font-weight: 400;
+        font-size: 1em;
+    }
+    .answ-1 {
+        margin-top: 3%;
+    }
+    .col-1,
+    .col-3,
+    .col-4 {
+        display: grid;
+        border: 1px dashed #C7CC00;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+        grid-template-areas: 'grid-1-1 grid-1-2';
+    }
+    .col-3,
+    .col-4 {
+        border-top: none;
+    }
+    .col-2 {
+        display: grid;
+        border: 1px dashed #C7CC00;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 40% 60%;
+        grid-template-areas: 'grid-1-1 grid-1-2' 'col-2-3 col-2-3';
+        border-top: none;
+    }
+    .col-1-1,
+    .col-2-1,
+    .col-3-1,
+    .col-4-1 {
+        grid-area: grid-1-1;
+        border-right: 1px dashed #C7CC00;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .col-1-2,
+    .col-2-2,
+    .col-3-2,
+    .col-4-2 {
+        grid-area: grid-1-2;
+        display: flex;
+        justify-content: center;
+    }
+    .col-2-3 {
+        grid-area: col-2-3;
+        border-top: 1px dashed #C7CC00;
+    }
+    .col-3-2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .crc-1,
+    .crc-2,
+    .crc-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        /* margin-bottom: 0; */
+        margin: 5% 0;
+    }
+    .crc-in {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        /* margin-bottom: 0; */
+        align-items: center;
+        justify-content: center;
+    }
+    .crc-name {
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 0;
+        font-family: 'Inter', sans-serif;
+        color: #C7CC00;
+        font-weight: 400;
+        font-size: .9em;
+    }
+    .col-4-2 {
+        display: block;
+    }
+    .col-4-2-1,
+    .col-4-2-2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-height: 420px) {
+    .projects-all {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 900px) {
+    .projects-back {
+        height: 90vh;
+    }
+    .projects {
+        height: 90vh;
+    }
+}
+
+@media only screen and (min-height: 832px) {
+    .projects-back {
+        /* animation: growbg 0s linear; */
+    }
+    .circle-gold {
+        /* animation: grow 0s linear; */
+    }
+}

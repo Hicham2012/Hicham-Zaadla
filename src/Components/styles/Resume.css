@@ -1,0 +1,357 @@
+.resume {
+    /* background-image: url(./Times\ pics/Bio.svg); */
+    /* background-color: #111111; */
+    background-size: cover;
+    /* padding: 0; */
+    width: 100%;
+    height: 102.5vh;
+    margin: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+.resume-container {
+    background: transparent;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 1%;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+}
+
+.resume-graph,
+.resume-data {
+    width: 40vw;
+    height: 80vh;
+}
+
+.resume-data {
+    /* background: #0C0D0D; */
+    border-radius: 0 1% 1% 0;
+    /* border: 1px solid #000000; */
+}
+
+.resume-det>h5 {
+    /* color: #FFFFFF; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin: 1% 0;
+}
+
+.resume-det>p,
+.re-li {
+    /* color: #FFFFFF; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 120%;
+    opacity: 85%;
+    margin: 0;
+    text-align: 120%;
+}
+
+p>li {
+    margin: 1% 0;
+}
+
+.re-li {
+    list-style-type: circle;
+    margin: 0;
+}
+
+ul {
+    margin: 1% 0;
+}
+
+.resume-graph {
+    /* background: #0C0D0D; */
+    border-radius: 1% 0 0 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000000; */
+}
+
+.graph {
+    /* border-bottom: 1px solid #F4F0F0;
+    border-left: 1px solid #F4F0F0; */
+    opacity: 75%;
+    width: 35vw;
+    height: 15vw;
+}
+
+.graph>p {
+    color: #C7CC00;
+    position: relative;
+    font-size: 1em;
+    font-family: 'Inter';
+    z-index: 999;
+    /* animation: reveal-p 3s ease-in; */
+}
+
+@keyframes reveal-p {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.arrow {
+    position: absolute;
+    /* bottom: 0%; */
+    width: 40%;
+    height: auto;
+    z-index: 0;
+    /* border: 1px solid blue; */
+    align-items: center;
+    justify-content: center;
+    left: 3%;
+    /* top: 0%; */
+    transform: translateY(-10%);
+}
+
+.arrow-green {
+    width: 100%;
+    height: 100%;
+    /* height: 50%; */
+    /* border: 1px solid red; */
+}
+
+.arrow-cover {
+    position: absolute;
+    background: #0C0D0D;
+    height: 250px;
+    width: 0%;
+    bottom: 28%;
+    right: 0%;
+    /* animation: reveal-arrow 2s ease; */
+}
+
+@keyframes reveal-arrow {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
+
+.graph>p:nth-child(1) {
+    /* position: absolute; */
+    left: 10%;
+    top: 20%;
+    transition-delay: 0ms;
+}
+
+.graph>p:nth-child(2) {
+    /* position: absolute; */
+    left: 20%;
+    top: 55%;
+    transition-delay: 400ms;
+}
+
+.graph>p:nth-child(3) {
+    /* position: absolute; */
+    left: 45%;
+    bottom: 40%;
+}
+
+.graph>p:nth-child(4) {
+    /* position: absolute; */
+    left: 55%;
+    bottom: 10%;
+}
+
+.graph>p:nth-child(5) {
+    /* position: absolute; */
+    left: 75%;
+    bottom: 100%;
+}
+
+.graph-cont>h5 {
+    /* color: #F4F0F0; */
+    opacity: 75%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.slider,
+.slider-2 {
+    margin: auto;
+    height: 5rem;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    flex: none;
+}
+
+.slider .slider-track,
+.slider-2 .slider-track {
+    /* border-top: 1px solid #22FF38; */
+    /* border-bottom: 1px solid #22FF38; */
+    /* background-color: #0C0D0D; */
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    width: calc(250px * 12);
+    animation: scroll 30s linear infinite;
+    position: absolute;
+}
+
+.slide-left {
+    /* background: #0C0D0D; */
+    position: absolute;
+    width: 15%;
+    height: 150%;
+    z-index: 3;
+    left: -7%;
+    filter: blur(10px);
+    top: -7%;
+}
+
+.slide-right {
+    /* background: #0C0D0D; */
+    position: absolute;
+    width: 15%;
+    height: 150%;
+    z-index: 3;
+    right: -7%;
+    filter: blur(10px);
+    top: -7%;
+}
+
+.slider-2 {
+    display: none;
+}
+
+@keyframes scroll {
+    from {
+        tansform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-150px * 7));
+    }
+}
+
+.slide {
+    width: 100%;
+}
+
+.slide>img {
+    width: auto;
+}
+
+@media only screen and (width: 1024px) and (height: 768px) {
+    .resume {
+        width: 100%;
+    }
+    /* .arrow */
+    .graph>p:nth-child(5) {
+        /* position: absolute; */
+        left: 75%;
+        bottom: 110%;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .resume {
+        width: 100%;
+    }
+    /* .arrow */
+    .graph>p:nth-child(5) {
+        /* position: absolute; */
+        left: 75%;
+        bottom: 110%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .resume-graph {
+        display: none;
+    }
+    .resume {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 70% 30%;
+        grid-template-areas: 'resumedet' 'slider';
+        gap: 1rem;
+    }
+    .resume-data {
+        grid-area: resumedet;
+        width: 100%;
+        background-color: transparent;
+        margin-top: 0;
+    }
+    .resume-det,
+    .resume-container {
+        grid-area: resumedet;
+        width: 100%;
+        height: 90%;
+        margin-top: 0;
+    }
+    /* .slider-2, */
+    .slider {
+        /* display: none; */
+        grid-area: slider;
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-height: 420px) {
+    .resume {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    .resume-det>h5 {
+        font-size: 1.1rem;
+    }
+    .resume-det>p,
+    .re-li {
+        font-size: .71rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 900px) {
+    .resume-container {
+        height: 70vh;
+    }
+    .resume-graph,
+    .resume-data {
+        width: 40vw;
+        height: 70vh;
+    }
+    .resume {
+        height: 90vh;
+    }
+    .graph>p:nth-child(3) {
+        /* position: absolute; */
+        left: 45%;
+        bottom: 33%;
+    }
+    .graph>p:nth-child(4) {
+        /* position: absolute; */
+        left: 55%;
+        bottom: 5%;
+    }
+    .graph>p:nth-child(5) {
+        /* position: absolute; */
+        left: 75%;
+        bottom: 90%;
+    }
+    .slide-right {
+        right: -3%;
+    }
+}

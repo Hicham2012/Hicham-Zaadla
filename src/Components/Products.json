@@ -1,0 +1,168 @@
+{
+    "Projects": [{
+        "id": 1,
+        "class": "one",
+        "pictures": "url",
+        "name": "PayUp App",
+        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1077244247746564126/logo_1.png",
+        "colors": "FFD4C1",
+        "describtion": "A blockchain app built on Flow blockchain that will provide users with better tools to choose good clients.",
+        "link": "https://pay-up-ten.vercel.app/",
+        "designSystem": {
+            "fonts": {
+                "fonts-1": "Inter"
+            },
+            "colors": {
+                "color-1": "FFD4C1",
+                "color-2": "FFDDCE",
+                "color-3": "1D1D1D"
+            },
+            "technologies": {
+                "tech-1": "NextJS",
+                "tech-2": "React",
+                "tech-3": "Blockchain"
+            },
+            "insideView": {
+                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1079161736361414736/Capture_decran_2023-02-25_230302.jpg"
+            }
+        }
+    }, {
+        "id": 2,
+        "class": "two",
+        "pictures": "url",
+        "name": "Lucky Shrub website",
+        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1066095276391153857/Asset_33x_3.png",
+        "colors": "F1B93E",
+        "describtion": "Lucky Shrub is a gardening company made by a married couple who are into providing clients with a unique experience of it’s own.",
+        "link": "https://lucky-shrub-website.vercel.app/",
+        "designSystem": {
+            "fonts": {
+                "fonts-1": "Inter"
+            },
+            "colors": {
+                "color-1": "F1B93E",
+                "color-2": "FFFFFF",
+                "color-3": "000000"
+            },
+            "technologies": {
+                "tech-1": "HTML",
+                "tech-2": "CSS",
+                "tech-3": "Javascript"
+            },
+            "insideView": {
+                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1067432457726591026/screencapture-127-0-0-1-5501-Home-html-2022-12-29-20_28_04.png",
+                "view-2": "https://cdn.discordapp.com/attachments/941095160517894185/1067432277665120396/Capture_decran_2023-01-24_141347.jpg",
+                "view-3": "https://cdn.discordapp.com/attachments/941095160517894185/1067432676665086013/screencapture-127-0-0-1-5501-Connect-html-2022-12-29-19_33_03.png"
+            }
+        }
+    }, {
+        "id": 3,
+        "class": "three",
+        "pictures": "",
+        "name": "Responsive webpage-1",
+        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067414649701683240/page-1.png",
+        "colors": "14253D",
+        "describtion": "Responsive webpage 1/3",
+        "link": "https://nft-preview-card-component-eight-green.vercel.app/",
+        "designSystem": {
+            "fonts": {
+                "fonts-1": "Outfit"
+            },
+            "colors": {
+                "color-1": "14253D",
+                "color-2": "00FFF7",
+                "color-3": "FFFFFF"
+            },
+            "technologies": {
+                "tech-1": "HTML",
+                "tech-2": "CSS"
+            },
+            "insideView": {
+                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1067204111348543538/nft-preview.png"
+            }
+        }
+    }, {
+        "id": 4,
+        "class": "four",
+        "pictures": "url",
+        "name": "Verification App",
+        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067417924433870848/page-1.png",
+        "colors": "7A7373",
+        "describtion": "React app that receives user's crypto wallets, it's a part of verification bot system made for some.place that has nearly 3000 members.",
+        "link": "https://verification-bot.someplace.repl.co/auth/discord#token_type=Bearer&access_token=qZmvCEEoeBQMMysyDxLc6Wydy4luYs&expires_in=604800&scope=identify",
+        "designSystem": {
+            "fonts": {
+                "fonts-1": "Inter"
+            },
+            "colors": {
+                "color-1": "7A7373",
+                "color-2": "182A70",
+                "color-3": "FDFDFD"
+            },
+            "technologies": {
+                "tech-1": "HTML",
+                "tech-2": "CSS",
+                "tech-3": "Javascript",
+                "tech-4": "React",
+                "tech-5": "API",
+                "tech-6": "MongoDB"
+            },
+            "insideView": {
+                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1067475431822983208/new.png",
+                "view-2": "https://cdn.discordapp.com/attachments/941095160517894185/1067490787757150288/Capture_decran_2023-01-24_180617.jpg"
+            }
+        }
+    }, {
+        "id": 5,
+        "class": "five",
+        "pictures": "url",
+        "name": "Responsive webpage-2",
+        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067415147309715536/page-1.png",
+        "colors": "F4EAA1",
+        "describtion": "Responsive webpage 2/3",
+        "link": "https://challenge2-12.vercel.app/",
+        "designSystem": {
+            "fonts": {
+                "fonts-1": "Inter"
+            },
+            "colors": {
+                "color-1": "F4EBE2",
+                "color-2": "388A40",
+                "color-3": "6C7289"
+            },
+            "technologies": {
+                "tech-1": "HTML",
+                "tech-2": "CSS"
+            },
+            "insideView": {
+                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1067487716104732773/new-1.jpg"
+            }
+        }
+    }, {
+        "id": 6,
+        "class": "six",
+        "pictures": "url",
+        "name": "Responsive webpage-3",
+        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067415590937034802/page-1.png",
+        "colors": "3AB1B4",
+        "describtion": "Responsive webpage 3/3",
+        "link": "https://hicham2012.github.io/",
+        "designSystem": {
+            "fonts": {
+                "fonts-1": "Outfit"
+            },
+            "colors": {
+                "color-1": "3AB1B4",
+                "color-2": "FFFFFF",
+                "color-3": "000000"
+            },
+            "technologies": {
+                "tech-1": "HTML",
+                "tech-2": "CSS"
+            },
+            "insideView": {
+                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1067489608218181642/new-2.jpg"
+            }
+        }
+    }]
+}
