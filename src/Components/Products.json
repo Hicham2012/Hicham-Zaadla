@@ -6,7 +6,7 @@
         "name": "PayUp App",
         "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1077244247746564126/logo_1.png",
         "colors": "FFD4C1",
-        "describtion": "A blockchain app built on Flow blockchain that will provide users with better tools to choose good clients.",
+        "describtion": "A web3 decentralized app built on Flow blockchain to provide users with better tools to choose good clients.",
         "link": "https://pay-up-ten.vercel.app/",
         "designSystem": {
             "fonts": {
@@ -23,7 +23,8 @@
                 "tech-3": "Blockchain"
             },
             "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1079161736361414736/Capture_decran_2023-02-25_230302.jpg"
+                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1079161736361414736/Capture_decran_2023-02-25_230302.jpg",
+                "view-2": "https://cdn.discordapp.com/attachments/941095160517894185/1079453648184168558/Capture_decran_2023-02-26_182305.jpn"
             }
         }
     }, {
