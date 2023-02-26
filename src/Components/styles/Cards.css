@@ -297,6 +297,10 @@
     animation: none;
 }
 
+.card-container-5:nth-child(6) {
+    z-index: 4;
+}
+
 .card-container-5:nth-child(7) {
     left: 6%;
     top: 12.5%;
