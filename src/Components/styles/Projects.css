@@ -229,7 +229,8 @@
     display: grid;
     grid-area: fonts-name;
     font-family: 'Inter';
-    font-size: 25px;
+    font-size: 1.6rem;
+    font-weight: 500;
     /* color: #FFFFFF; */
     align-items: center;
     justify-content: left;
@@ -250,11 +251,11 @@
     display: grid;
     grid-area: view-name;
     font-family: 'Inter';
-    font-size: 25px;
+    font-size: 1.6rem;
+    font-weight: 500;
     /* color: #FFFFFF; */
     align-items: center;
     justify-content: left;
-    font-weight: 600;
 }
 
 .des-view-col {
@@ -412,7 +413,8 @@ fieldset>legend>h5 {
 .des-titles-colors {
     grid-area: color-name;
     font-family: 'Inter';
-    font-size: 25px;
+    font-size: 1.6rem;
+    font-weight: 500;
     /* color: #FFFFFF; */
 }
 
@@ -450,7 +452,8 @@ fieldset>legend>h5 {
 .des-titles-tech {
     grid-area: tech-name;
     font-family: 'Inter';
-    font-size: 25px;
+    font-size: 1.6rem;
+    font-weight: 500;
     /* color: #FFFFFF; */
 }
 
