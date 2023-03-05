@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import React from 'react'
 import './App.css';
-// import Times from './Components/Times'
+import Times from './Components/Times'
 import Portfolio from './Components/Portfolio';
 
 function App() {
