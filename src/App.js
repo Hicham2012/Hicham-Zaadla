@@ -14,11 +14,10 @@ function App() {
             // console.log(currentHour)
     }, [currentHour])
 
-    return ( 
-        <>
-        { currentHour >= 8 && currentHour <= 19 ? < Portfolio / > : < Portfolio / > }
-//            <Portfolio /> 
-        </>
+    return ( <
+        >
+        { currentHour >= 8 && currentHour <= 19 ? < Portfolio / > : < Times / > } { /* <Portfolio /> */ } <
+        />
     );
 }
 
