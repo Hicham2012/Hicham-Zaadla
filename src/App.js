@@ -16,8 +16,8 @@ function App() {
 
     return ( 
         <>
-//         { currentHour >= 8 && currentHour <= 19 ? < Portfolio / > : < Times / > }
-           <Portfolio /> 
+        { currentHour >= 8 && currentHour <= 19 ? < Portfolio / > : < Portfolio / > }
+//            <Portfolio /> 
         </>
     );
 }
