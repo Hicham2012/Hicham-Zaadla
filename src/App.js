@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import React from 'react'
 import './App.css';
-import Times from './Components/Times'
+// import Times from './Components/Times'
 import Portfolio from './Components/Portfolio';
 
 function App() {
@@ -14,10 +14,11 @@ function App() {
             // console.log(currentHour)
     }, [currentHour])
 
-    return ( <
-        >
-        { currentHour >= 8 && currentHour <= 19 ? < Portfolio / > : < Times / > } { /* <Portfolio /> */ } <
-        />
+    return ( 
+        <>
+//         { currentHour >= 8 && currentHour <= 19 ? < Portfolio / > : < Times / > }
+           <Portfolio /> 
+        </>
     );
 }
 
