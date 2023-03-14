@@ -258,6 +258,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    z-index: 999;
 }
 
 .cube-1>h5,
@@ -608,11 +609,11 @@
 }
 
 @media only screen and (min-width: 1440px) and (min-height: 900px) {
-    .div-feed {
+    /* .div-feed {
         display: none;
     }
     .connect {
-        height: 90vh;
+        min-height: 100vh;
     }
     .feed-1 {
         left: 12%;
@@ -656,5 +657,25 @@
     .cube-3>h5,
     .cube-4>h5 {
         font-size: 1.4rem;
+    } */
+    .connect {
+        min-height: 100vh;
+        width: 102.5%;
+    }
+    .connect-info {
+        transform: scale(1.4);
+    }
+    .feed-1,
+    .feed-2,
+    .feed-3 {
+        transform: scale(1.4);
+    }
+    .bar {
+        height: 300px;
+    }
+    .flex-circle,
+    .cube-col,
+    .footer {
+        transform: scale(1.4);
     }
 }

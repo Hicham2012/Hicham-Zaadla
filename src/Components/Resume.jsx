@@ -113,6 +113,7 @@ export default function Resume(props) {
         }}>Product Management</li>
         </ul>
         </div>
+        <div className='wrapper'>
         <div className='slider' style={{
           backgroundColor: props.dark ? '#0C0D0D' : '#EAEAEA'
         }}>
@@ -162,6 +163,7 @@ export default function Resume(props) {
               <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177341811007539/512px-FreeCodeCamp_logo_2.png" alt="Freecodecamp" />
             </div>
           </div>
+        </div>
         </div>
         </div>
         

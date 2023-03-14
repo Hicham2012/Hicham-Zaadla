@@ -105,3 +105,14 @@ html {
         display: flex;
     }
 }
+
+@media only screen and (min-width: 1440px) and (min-height: 900px) {
+    .guide-in,
+    .guide-in::after,
+    .guide-in::before {
+        transform: scale(1.4);
+    }
+    html {
+        background-color: #0C0D0D;
+    }
+}

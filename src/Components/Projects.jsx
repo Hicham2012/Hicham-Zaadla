@@ -6,7 +6,7 @@ import data from './Products.json'
  const [cardNum, setCardNum] = React.useState(1) 
  const projects = data.Projects[`${cardNum}` - 1].designSystem
   function handleChangeMax() {
-    if(cardNum <= 5 && cardNum >= 1) {
+    if(cardNum <= 6 && cardNum >= 1) {
     setCardNum(prevNum => prevNum + 1)
   } else {
     setCardNum(1)
@@ -16,7 +16,7 @@ import data from './Products.json'
     if(cardNum >= 2 && cardNum >= 1) {
     setCardNum(prevNum => prevNum - 1)
   } else{
-    setCardNum(6)
+    setCardNum(7)
   }
   }
   

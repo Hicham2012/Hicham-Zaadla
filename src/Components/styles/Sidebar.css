@@ -105,3 +105,5 @@
     .fromLeft:after {
         transform-origin: 0% 50%;
     }
+    
+    @media only screen and (min-width: 1440px) and (min-height: 900px) {}

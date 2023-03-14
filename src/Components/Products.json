@@ -23,13 +23,42 @@
                 "tech-3": "Blockchain"
             },
             "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1079161736361414736/Capture_decran_2023-02-25_230302.jpg",
-                "view-2": "https://cdn.discordapp.com/attachments/941095160517894185/1079453648184168558/Capture_decran_2023-02-26_182305.jpg"
+                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1082380997817012355/payup-homepage.png"
             }
         }
     }, {
         "id": 2,
         "class": "two",
+        "pictures": "url",
+        "name": "Personal website",
+        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1082372139992223804/logo-portoflio.png",
+        "colors": "0C0D0D",
+        "describtion": "This is my personal website that I specially created to share my vision, culture and my work.",
+        "link": "https://hicham-zaadla.vercel.app/",
+        "designSystem": {
+            "fonts": {
+                "fonts-1": "Inter"
+            },
+            "colors": {
+                "color-1": "0C0D0D",
+                "color-2": "22FF38",
+                "color-3": "C7CC00"
+            },
+            "technologies": {
+                "tech-1": "HTML",
+                "tech-2": "CSS",
+                "tech-3": "Javascript",
+                "tech-4": "React"
+            },
+            "insideView": {
+                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1068964175558226012/Capture_decran_2023-01-28_194138.jpg",
+                "view-2": "https://cdn.discordapp.com/attachments/941095160517894185/1068966386329727046/Capture_decran_2023-01-28_195025.jpg",
+                "view-3": "https://cdn.discordapp.com/attachments/941095160517894185/1068966123304923296/Capture_decran_2023-01-28_194919.jpg"
+            }
+        }
+    }, {
+        "id": 3,
+        "class": "three",
         "pictures": "url",
         "name": "Lucky Shrub website",
         "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1066095276391153857/Asset_33x_3.png",
@@ -51,35 +80,7 @@
                 "tech-3": "Javascript"
             },
             "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1067432457726591026/screencapture-127-0-0-1-5501-Home-html-2022-12-29-20_28_04.png",
-                "view-2": "https://cdn.discordapp.com/attachments/941095160517894185/1067432277665120396/Capture_decran_2023-01-24_141347.jpg",
-                "view-3": "https://cdn.discordapp.com/attachments/941095160517894185/1067432676665086013/screencapture-127-0-0-1-5501-Connect-html-2022-12-29-19_33_03.png"
-            }
-        }
-    }, {
-        "id": 3,
-        "class": "three",
-        "pictures": "",
-        "name": "Responsive webpage-1",
-        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067414649701683240/page-1.png",
-        "colors": "14253D",
-        "describtion": "Responsive webpage 1/3",
-        "link": "https://nft-preview-card-component-eight-green.vercel.app/",
-        "designSystem": {
-            "fonts": {
-                "fonts-1": "Outfit"
-            },
-            "colors": {
-                "color-1": "14253D",
-                "color-2": "00FFF7",
-                "color-3": "FFFFFF"
-            },
-            "technologies": {
-                "tech-1": "HTML",
-                "tech-2": "CSS"
-            },
-            "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1067204111348543538/nft-preview.png"
+                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1067432457726591026/screencapture-127-0-0-1-5501-Home-html-2022-12-29-20_28_04.png"
             }
         }
     }, {
@@ -116,6 +117,32 @@
     }, {
         "id": 5,
         "class": "five",
+        "pictures": "",
+        "name": "Responsive webpage-1",
+        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067414649701683240/page-1.png",
+        "colors": "14253D",
+        "describtion": "Responsive webpage 1/3",
+        "link": "https://nft-preview-card-component-eight-green.vercel.app/",
+        "designSystem": {
+            "fonts": {
+                "fonts-1": "Outfit"
+            },
+            "colors": {
+                "color-1": "14253D",
+                "color-2": "00FFF7",
+                "color-3": "FFFFFF"
+            },
+            "technologies": {
+                "tech-1": "HTML",
+                "tech-2": "CSS"
+            },
+            "insideView": {
+                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1067204111348543538/nft-preview.png"
+            }
+        }
+    }, {
+        "id": 6,
+        "class": "six",
         "pictures": "url",
         "name": "Responsive webpage-2",
         "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067415147309715536/page-1.png",
@@ -140,8 +167,8 @@
             }
         }
     }, {
-        "id": 6,
-        "class": "six",
+        "id": 7,
+        "class": "seven",
         "pictures": "url",
         "name": "Responsive webpage-3",
         "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067415590937034802/page-1.png",

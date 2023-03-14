@@ -43,7 +43,7 @@ React.useEffect(() => {
         window.removeEventListener('scroll', handleScroll);
     };
 }, [scrollPosition]);
-console.log(scrollPosition)
+// console.log(scrollPosition)
   function Guide() {
     return (
       <>

@@ -291,11 +291,16 @@
         }
         
         @media only screen and (min-width: 1440px) and (min-height: 900px) {
-            .bio {
-                /* height: 90vh; */
+            .bio,
+            .bio-light {
+                min-height: 100vh;
+                width: 102.5%;
+            }
+            .bio-here {
+                transform: scale(1.4);
             }
             .face-combo {
-                height: 28vh;
+                height: 24vh;
             }
         }
         

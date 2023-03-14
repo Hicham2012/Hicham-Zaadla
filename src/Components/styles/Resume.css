@@ -32,7 +32,20 @@
 .resume-data {
     /* background: #0C0D0D; */
     border-radius: 0 1% 1% 0;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+    grid-template-areas: 'resumedet' 'slider';
     /* border: 1px solid #000000; */
+}
+
+.resume-det {
+    grid-area: resumedet;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
 }
 
 .resume-det>h5 {
@@ -47,21 +60,21 @@
 .re-li {
     /* color: #FFFFFF; */
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: .9rem;
     line-height: 120%;
     opacity: 85%;
     margin: 0;
-    text-align: 120%;
+    /* text-align: 120%; */
 }
 
 p>li {
-    margin: 1% 0;
+    /* margin: 1% 0; */
 }
 
 .re-li {
     list-style-type: circle;
-    margin: 0;
+    /* margin: 0; */
 }
 
 ul {
@@ -184,6 +197,12 @@ ul {
     font-size: 20px;
 }
 
+.wrapper {
+    grid-area: slider;
+    /* background: #C7CC00; */
+    /* display: flex; */
+}
+
 .slider,
 .slider-2 {
     margin: auto;
@@ -198,7 +217,7 @@ ul {
 .slider-2 .slider-track {
     /* border-top: 1px solid #22FF38; */
     /* border-bottom: 1px solid #22FF38; */
-    /* background-color: #0C0D0D; */
+    /* background-color: red; */
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -325,7 +344,7 @@ ul {
 }
 
 @media only screen and (min-width: 1440px) and (min-height: 900px) {
-    .resume-container {
+    /* .resume-container {
         height: 70vh;
     }
     .resume-graph,
@@ -337,21 +356,44 @@ ul {
         height: 90vh;
     }
     .graph>p:nth-child(3) {
-        /* position: absolute; */
         left: 45%;
         bottom: 33%;
     }
     .graph>p:nth-child(4) {
-        /* position: absolute; */
         left: 55%;
         bottom: 5%;
     }
     .graph>p:nth-child(5) {
-        /* position: absolute; */
         left: 75%;
         bottom: 90%;
     }
     .slide-right {
         right: -3%;
+    } */
+    .resume {
+        min-height: 100vh;
+        width: 102.5%;
+    }
+    .resume-container {
+        transform: scale(1);
+    }
+    .graph>p:nth-child(3),
+    .graph>p:nth-child(4),
+    .graph>p:nth-child(5) {
+        transform: translateY(250%) translateX(5%);
+    }
+    .arrow-cover {
+        right: 0%;
+        height: 50%;
+        width: 0%;
+        background: red;
+    }
+    @keyframes reveal-arrow {
+        from {
+            width: 110%;
+        }
+        to {
+            width: 0%;
+        }
     }
 }
