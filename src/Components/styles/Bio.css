@@ -245,13 +245,14 @@
         top: -7%; */
                 /* transform: rotate(10deg); */
             }
-            .info-2 {}
             .info-2>.title-dark {
                 /* font-size: 1.5em; */
                 border-bottom: 1px solid #22FF38;
             }
+            .info-2>h3,
             .info-2>p {
                 /* font-size: .9em; */
+                padding-left: 4%;
             }
             .magic {
                 /* padding-bottom: 12px; */
