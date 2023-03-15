@@ -290,15 +290,13 @@
     z-index: -1;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 420px) {
     .logo {
         display: grid;
         grid-template-columns: 200px 100px;
         grid-template-rows: 150px 110px;
         grid-template-areas: 'one two' 'three three';
-    }
-    .two {
-        left: 0%;
+        justify-content: center;
     }
     @keyframes two {
         from {
