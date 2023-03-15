@@ -744,12 +744,14 @@ fieldset>legend>h5 {
 }
 
 @media only screen and (max-width: 420px) {
-    .crc-1,
-    .crc-2,
-    .crc-3,
     .answ,
     .answ-1 {
         transform: scale(.9);
+    }
+    .crc-1,
+    .crc-2,
+    .crc-3 {
+        transform: scale(.85);
     }
 }
 
