@@ -342,3 +342,16 @@
                 height: 29.5vh;
             }
         }
+        @media only screen and (min-width: 2000px) {
+            .bio,
+            .bio-light {
+                width: 100%;
+                min-height: 100%;
+            }
+            .bio-here {
+                transform: scale(1.4);
+            }
+            .face-combo {
+                height: 22.5vh;
+            }
+        }
