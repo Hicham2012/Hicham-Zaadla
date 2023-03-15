@@ -427,10 +427,6 @@
     }
 }
 
-.cube-2 {
-    /* transform: rotate(30deg) translateY(-20%); */
-}
-
 .div-feed {
     display: none;
 }
@@ -571,6 +567,51 @@
     }
 }
 
+@media only screen and (max-width: 420px) {
+    .feed-1,
+    .feed-2,
+    .feed-3 {
+        /* top: 5%; */
+        transform: scale(.9);
+        position: static;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex-circle,
+    .cube-col {
+        transform: scale(.9);
+    }
+    .feed-1::before,
+    .feed-3::before {
+        content: 'some·place Co-Founder';
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        background-color: #22FF38;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        top: 0%;
+        /* height: 25px; */
+        left: 0%;
+        text-align: center;
+        opacity: 80%;
+    }
+    .feed-2::before {
+        content: 'some·place Community Manager';
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        background-color: #22FF38;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        top: 0%;
+        /* height: 25px; */
+        left: 0%;
+        text-align: center;
+        opacity: 80%;
+    }
+}
+
 @media only screen and (max-height: 420px) {
     .connect {
         display: none;
@@ -592,6 +633,7 @@
         left: auto;
         width: 80%;
         /* height: 110%; */
+        transform: scale(.9);
     }
     .footer {
         bottom: 0%;
@@ -606,61 +648,15 @@
         height: 25px;
         left: 2%;
     }
+    .flex-circle {
+        transform: scale(.9) translateY(-10%);
+    }
 }
 
 @media only screen and (min-width: 1440px) and (min-height: 900px) {
-    /* .div-feed {
-        display: none;
-    }
     .connect {
         min-height: 100vh;
-    }
-    .feed-1 {
-        left: 12%;
-    }
-    .feed-2 {
-        left: 43%;
-    }
-    .feed-3 {
-        left: 72%;
-    }
-    .feed-1,
-    .feed-2,
-    .feed-3 {
-        width: 100%;
-    }
-    .writing-feed>h5 {
-        font-size: 1.1rem;
-    }
-    .writing-feed>p {
-        font-size: 1rem;
-    }
-    .main-circle {
-        width: 15rem;
-        height: 15rem;
-    }
-    .connect-info>h5 {
-        font-size: 3.15rem;
-    }
-    .connect-info>p {
-        font-size: 1.5rem;
-    }
-    .cube-1,
-    .cube-2,
-    .cube-3,
-    .cube-4 {
-        width: 35px;
-        height: 35px;
-    }
-    .cube-1>h5,
-    .cube-2>h5,
-    .cube-3>h5,
-    .cube-4>h5 {
-        font-size: 1.4rem;
-    } */
-    .connect {
-        min-height: 100vh;
-        width: 102.5%;
+        width: 104%;
     }
     .connect-info {
         transform: scale(1.4);
@@ -677,5 +673,27 @@
     .cube-col,
     .footer {
         transform: scale(1.4);
+    }
+    .footer {
+        left: 5%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .connect {
+        min-height: 100vh;
+        width: 100%;
+    }
+    .connect-info,
+    .feed-1,
+    .feed-2,
+    .feed-3,
+    .flex-circle,
+    .cube-col,
+    .footer {
+        transform: scale(1.2);
+    }
+    .footer {
+        left: 4%;
     }
 }

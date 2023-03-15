@@ -327,6 +327,12 @@ ul {
     }
 }
 
+@media only screen and (max-width: 420px) {
+    .resume-container {
+        transform: scale(.9);
+    }
+}
+
 @media only screen and (max-height: 420px) {
     .resume {
         display: none;
@@ -372,7 +378,7 @@ ul {
     } */
     .resume {
         min-height: 100vh;
-        width: 102.5%;
+        width: 104%;
     }
     .resume-container {
         transform: scale(1);
@@ -395,5 +401,17 @@ ul {
         to {
             width: 0%;
         }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .resume {
+        min-height: 100vh;
+        width: 100%;
+    }
+    .graph>p:nth-child(3),
+    .graph>p:nth-child(4),
+    .graph>p:nth-child(5) {
+        transform: translateY(90%) translateX(2%);
     }
 }

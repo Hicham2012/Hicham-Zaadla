@@ -284,6 +284,12 @@
             }
         }
         
+        @media only screen and (max-width: 420px) {
+            .bio-here {
+                transform: scale(.9);
+            }
+        }
+        
         @media only screen and (max-height: 420px) {
             .bio {
                 display: none;
@@ -294,7 +300,7 @@
             .bio,
             .bio-light {
                 min-height: 100vh;
-                width: 102.5%;
+                width: 104%;
             }
             .bio-here {
                 transform: scale(1.4);
@@ -307,5 +313,31 @@
         @media only screen and (min-height: 832px) {
             .face-combo {
                 /* height: 35vh; */
+            }
+        }
+        
+        @media only screen and (min-width: 1300px) {
+            .face-combo {
+                height: 34vh;
+            }
+        }
+        
+        @media only screen and (min-width: 1440px) {
+            .bio,
+            .bio-light {
+                min-height: 100vh;
+                width: 100%;
+            }
+            .bio-here {
+                transform: scale(1.2);
+            }
+            .face-combo {
+                height: 28.5vh;
+            }
+        }
+        
+        @media only screen and (min-width: 1536px) {
+            .face-combo {
+                height: 29.5vh;
             }
         }

@@ -409,9 +409,20 @@
     .intro,
     .intro-light {
         min-height: 100vh;
-        width: 102.5%;
+        width: 104%;
     }
     .logo {
         transform: scale(1.4);
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .intro,
+    .intro-light {
+        min-height: 100vh;
+        width: 100%;
+    }
+    .logo {
+        transform: scale(1.2);
     }
 }

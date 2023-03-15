@@ -30,7 +30,7 @@ export default function Portfolio() {
   const pull_data = (data) => {
     setDark(data)
   }
-const [scrollPosition, setScrollPosition] = React.useState(0);
+const [scrollPosition, setScrollPosition] = React.useState();
 const handleScroll = () => {
     const position = window.scrollY / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 100;
     setScrollPosition(position);
