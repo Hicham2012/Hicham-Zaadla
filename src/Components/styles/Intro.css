@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700;900&display=swap');
 .intro {
-    background-image: url(./Times\ pics/Frame326.svg);
+/*     background-image: url(./Times\ pics/Frame326.svg); */
+    background-image: url(./Times\ pics/minyatur.png);
     background-size: cover;
     /* padding: 0; */
     width: 100%;
