@@ -68,7 +68,7 @@ export default function Resume(props) {
         }}>Skills:</h5>
         <p style={{
           color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Javascript, CSS, HTML, Frontend, MongoDB, API, React,  UX/UI Design, Python</p>
+        }}>Javascript, JQuery, CSS, HTML, Frontend, MongoDB, API, React, NodeJS, UX/UI Design, Python, Blockchain</p>
         <h5 style={{
           color: props.dark ? '#FFFFFF' : '#000000'
         }}>Experiences:</h5>
@@ -91,7 +91,10 @@ export default function Resume(props) {
         }}>Built a customized verification bot system for some.place that receives users crypto wallets through an app (React, UX/UI Design) and sends it to a custom API. It’s stored inside a database (MongoDB) and then the bot receives the data and uses it to interact with more than 3K users (Python).</li></p>
         <p><li className='re-li' style={{
           color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Built a static website after 5 months of self-paced courses (Javascript, CSS, HTML).</li></p>
+        }}>Built several websites after 5 months of self-paced courses (Javascript, CSS, HTML).</li></p>
+        <p><li className='re-li' style={{
+          color: props.dark ? '#FFFFFF' : '#000000'
+        }}>Currently building a blockchain app to help improve people’s life (Fnow Blockchain, NextJS, React, Javascript ...)</li></p>
         <h5 style={{
           color: props.dark ? '#FFFFFF' : '#000000'
         }}>Education:</h5>
