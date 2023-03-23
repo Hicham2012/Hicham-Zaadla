@@ -100,9 +100,8 @@ export default function Intro(props) {
           smooth={true}
           offset={-100}
           duration={50}
-          className='fromLeft'
+          className='down'
         >
-          <div className='down'></div>
         </Link>
     </div>
   )
