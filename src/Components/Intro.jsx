@@ -5,6 +5,7 @@ import './styles/Intro.css'
 import CHAM from './styles/Times pics/CHAM.svg'
 import CHAMLight from './styles/Times pics/CHAM-light.svg'
 import ZAADLA from './styles/Times pics/ZAADLA.svg'
+import { Link } from 'react-scroll'
 
 // import { Light } from 'three';
 // import './Pull.js'
@@ -92,7 +93,17 @@ export default function Intro(props) {
           </div>
         </div>
       </div>
-     <div className='down'></div>
+     <Link
+          activeClass='active'
+          to='bio'
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={50}
+          className='fromLeft'
+        >
+          <div className='down'></div>
+        </Link>
     </div>
   )
 }
