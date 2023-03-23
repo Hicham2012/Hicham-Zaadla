@@ -83,13 +83,13 @@ export default function Resume(props) {
         }}>Built a customized verification bot system for <a href="https://some.place/" target="_blank" rel="noreferrer" style={{
           // textDecoration: 'none',
           color: props.dark ? '#FFFFFF' : '#000000'
-        }}>some.place</a> that receives users crypto wallets through an app (React, UX/UI Design) and sends it to a custom API. It’s stored inside a database (MongoDB) and then the bot receives the data and uses it to interact with more than 3K users (Python).</li></p>
+        }}>some.place</a> that receives users crypto wallets through an app (React, UX/UI Design) and send it to a custom API. It’s stored inside a database (MongoDB) and then the bot receives the data and uses it to interact with more than 3K users (Python).</li></p>
         <p><li className='re-li' style={{
           color: props.dark ? '#FFFFFF' : '#000000'
         }}>Built several responsive websites and webpages as a case study (Javascript, CSS, HTML).</li></p>
         <p><li className='re-li' style={{
           color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Wrote multiple working smart contracts and liked them to websites (Flow Blockchain, React, Javascript, CSS, HTML).</li></p>
+        }}>Wrote multiple working smart contracts and linked them to websites (Flow Blockchain, React, Javascript, CSS, HTML).</li></p>
         <p><li className='re-li' style={{
           color: props.dark ? '#FFFFFF' : '#000000'
         }}>Have experience coding email templates.</li></p>
