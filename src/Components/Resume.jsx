@@ -74,27 +74,25 @@ export default function Resume(props) {
         }}>Experiences:</h5>
         <p><li className='re-li' style={{
           color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Built a fully customized Discord bot for some.place, a Web3 company connecting brands and consumers through the blockchain. Developed the bot from the ground up using Python and API and launched it with multiple functionalities:</li></p>
-        <ul>
-          <li className='re-li' style={{
-          color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Display latest sales in real time</li>
-          <li className='re-li' style={{
-          color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Manage help ticket system</li>
-          <li className='re-li' style={{
-          color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Directly interact wth members and offer them assistance</li>
-        </ul>
+        }}>Built a decentralized web application that let people connect their crypto wallet and interact with the blockchain and smart contract (Flow Blockchain, NextJs, React, Javascript, CSS3, HTML5).</li></p>
         <p><li className='re-li' style={{
           color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Built a customized verification bot system for some.place that receives users crypto wallets through an app (React, UX/UI Design) and sends it to a custom API. It’s stored inside a database (MongoDB) and then the bot receives the data and uses it to interact with more than 3K users (Python).</li></p>
+        }}>Designed and coded a react app that is interactive and responsive with more than 50 types of devices (React, UX/UI Design, Javascript, CSS, HTML)k</li></p>
         <p><li className='re-li' style={{
           color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Built several websites after 5 months of self-paced courses (Javascript, CSS, HTML).</li></p>
+        }}>Built a customized verification bot system for <a href="https://some.place/" target="_blank" rel="noreferrer" style={{
+          // textDecoration: 'none',
+          color: props.dark ? '#FFFFFF' : '#000000'
+        }}>some.place</a> that receives users crypto wallets through an app (React, UX/UI Design) and sends it to a custom API. It’s stored inside a database (MongoDB) and then the bot receives the data and uses it to interact with more than 3K users (Python).</li></p>
         <p><li className='re-li' style={{
           color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Currently building a blockchain app to help improve people’s life (Fnow Blockchain, NextJS, React, Javascript ...)</li></p>
+        }}>Built several responsive websites and webpages as a case study (Javascript, CSS, HTML).</li></p>
+        <p><li className='re-li' style={{
+          color: props.dark ? '#FFFFFF' : '#000000'
+        }}>Wrote multiple working smart contracts and liked them to websites (Flow Blockchain, React, Javascript, CSS, HTML).</li></p>
+        <p><li className='re-li' style={{
+          color: props.dark ? '#FFFFFF' : '#000000'
+        }}>Have experience coding email templates.</li></p>
         <h5 style={{
           color: props.dark ? '#FFFFFF' : '#000000'
         }}>Education:</h5>
