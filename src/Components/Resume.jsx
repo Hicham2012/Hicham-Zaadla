@@ -68,7 +68,7 @@ export default function Resume(props) {
         }}>Skills:</h5>
         <p style={{
           color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Javascript, JQuery, CSS, HTML, Frontend, MongoDB, API, React, NodeJS, UX/UI Design, Python, Blockchain</p>
+        }}>Javascript, JQuery, CSS, HTML, Typescript, Frontend, MongoDB, API, React, NodeJS, UX/UI Design, Python, Blockchain</p>
         <h5 style={{
           color: props.dark ? '#FFFFFF' : '#000000'
         }}>Experiences:</h5>
