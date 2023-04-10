@@ -177,7 +177,7 @@ export default function Connect(props) {
           <h5>G</h5>
         </div>
         </a>
-        <a href="https://www.linkedin.com/in/hicham-zaadla-835489251/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/hicham-zaadla/" target="_blank" rel="noreferrer">
         <div className="cube-2" style={{
          animation: props.time > 88 ? 'cube-2-fall 600ms linear 1.05s' : 'nulll 0s linear'
         }}>
