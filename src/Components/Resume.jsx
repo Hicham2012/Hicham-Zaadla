@@ -102,7 +102,9 @@ export default function Resume(props) {
         <ul>
           <li className='re-li' style={{
           color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Frontend <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/9XA2WMR577CY" target="_blank">(view certificate)</a></li>
+        }}>Frontend <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/9XA2WMR577CY" target="_blank" rel="noreferrer" style={{
+          color: props.dark ? '#FFFFFF' : '#000000'
+        }}>(view certificate)</a></li>
           <li className='re-li' style={{
           color: props.dark ? '#FFFFFF' : '#000000'
         }}>UX Design</li>
