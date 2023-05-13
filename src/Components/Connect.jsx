@@ -30,7 +30,7 @@ export default function Connect(props) {
       }}>If the vibe matches, we will build cool stuff</p>
       </div>
       <div className="connect-feedbacks">
-      <img className="tree" src={props.dark ? "https://cdn.discordapp.com/attachments/941095160517894185/1068264836061995048/Vector_38.png" : "https://cdn.discordapp.com/attachments/941095160517894185/1069252515012554883/Vector_38.png"} alt="tree" />
+      <img className="tree" src={props.dark ? "https://cdn.discordapp.com/attachments/941095160517894185/1106951036901527562/ezgif.com-gif-maker.webp" : "https://cdn.discordapp.com/attachments/941095160517894185/1106951358130696242/ezgif.com-gif-maker_1.webp"} alt="tree" />
         {/* Feed-1 */}
         <div className="feed-1" style={{
           backgroundColor: props.dark ? 'rgba(217, 217, 217, 0.1)' : 'rgba(63, 63, 63, 0.08)'
