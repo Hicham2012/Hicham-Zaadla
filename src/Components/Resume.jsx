@@ -113,7 +113,7 @@ export default function Resume(props) {
         }}>Profesional English Ethics</li>
           <li className='re-li' style={{
           color: props.dark ? '#FFFFFF' : '#000000'
-        }}>Product Management</li>
+        }}>React Native</li>
         </ul>
         </div>
         <div className='wrapper'>
