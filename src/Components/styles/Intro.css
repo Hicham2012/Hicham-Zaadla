@@ -291,7 +291,7 @@
     z-index: -1;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
     .logo {
         display: grid;
         grid-template-columns: 200px 100px;
@@ -398,7 +398,7 @@
     }
 }
 
-@media only screen and (max-height: 420px) {
+@media only screen and (max-height: 430px) {
     .intro {
         display: none;
     }
