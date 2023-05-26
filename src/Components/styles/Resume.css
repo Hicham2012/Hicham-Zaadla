@@ -327,7 +327,7 @@ ul {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
     .resume-container {
         transform: scale(.9);
         align-items: center;
@@ -335,7 +335,7 @@ ul {
     }
 }
 
-@media only screen and (max-height: 420px) {
+@media only screen and (max-height: 430px) {
     .resume {
         display: none;
     }
