@@ -618,7 +618,6 @@
     }
 }
 
-@media only screen and (max-height: 900px),
 @media only screen and (max-height: 700px) and (orientation: portrait) {
     .main-circle {
         width: 9rem;
