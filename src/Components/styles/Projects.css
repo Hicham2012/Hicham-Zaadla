@@ -796,9 +796,11 @@ fieldset>legend>h5 {
         min-height: 100vh;
         width: 100%;
     }
-    .left-side-des,
+    .left-side-des {
+        transform: scale(1.2);
+    }
     .right-side-des {
-        transform: scale(1.2) translateY(10%);
+        transform: scale(1.2) translateY(5%)
     }
     .des-colors,
     .des-fonts,
