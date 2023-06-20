@@ -697,3 +697,8 @@
         left: 4%;
     }
 }
+@media only screen and (max-height: 740px) {
+    .connect-info {
+        transform: scale(.8)
+    }
+}
