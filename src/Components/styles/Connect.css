@@ -698,7 +698,10 @@
     }
 }
 @media only screen and (max-height: 740px) {
-    .connect-info {
+    .connect-info,
+    .feed-1,
+    .feed-2,
+    .feed-3 {
         transform: scale(.8)
     }
 }
