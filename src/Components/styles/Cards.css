@@ -119,7 +119,8 @@
 .card-container-2:nth-child(5),
 .card-container-2:nth-child(6),
 .card-container-2:nth-child(7),
-.card-container-2:nth-child(8) {
+.card-container-2:nth-child(8),
+.card-container-2:nth-child(9) {
     display: none;
 }
 
@@ -170,7 +171,8 @@
 .card-container-1:nth-child(5),
 .card-container-1:nth-child(6),
 .card-container-1:nth-child(7),
-.card-container-1:nth-child(8) {
+.card-container-1:nth-child(8),
+.card-container-1:nth-child(9) {
     display: none;
 }
 
@@ -223,7 +225,8 @@
 }
 
 .card-container-3:nth-child(7),
-.card-container-3:nth-child(8) {
+.card-container-3:nth-child(8),
+.card-container-3:nth-child(9) {
     display: none;
 }
 
@@ -280,7 +283,8 @@
 }
 
 .card-container-4:nth-child(7),
-.card-container-4:nth-child(8) {
+.card-container-4:nth-child(8),
+.card-container-4:nth-child(9) {
     display: none;
 }
 
@@ -339,7 +343,8 @@
 }
 
 .card-container-5:nth-child(4),
-.card-container-5:nth-child(8) {
+.card-container-5:nth-child(8),
+.card-container-5:nth-child(9) {
     display: none;
 }
 
@@ -398,12 +403,13 @@
 }
 
 .card-container-6:nth-child(4),
-.card-container-6:nth-child(5) {
+.card-container-6:nth-child(5),
+.card-container-6:nth-child(9) {
     display: none;
 }
 
 
-/* Seventh Turn */
+/* seventh turn */
 
 .card-container-7 {
     display: flex;
@@ -420,23 +426,28 @@
 }
 
 .card-container-7:nth-child(8) {
-    left: -10%;
-    /* top: 12.5%; */
-    /* transform: rotate(-30deg); */
-    transition: none;
     z-index: 4;
 }
 
-.card-container-7:nth-child(3) {
-    left: 16%;
+.card-container-7:nth-child(9) {
+    left: 6%;
     top: 12.5%;
     transform: rotate(30deg);
     transition: none;
     z-index: 0;
 }
 
+.card-container-7:nth-child(2) {
+    /* left: 16%;
+    top: 12.5%;
+    transform: rotate(30deg);
+    transition: none;
+    z-index: 0; */
+    display: none;
+}
+
 .card-container-7:nth-child(7) {
-    left: -16%;
+    left: -6%;
     top: 12.5%;
     transform: rotate(-30deg);
     transition: none;
@@ -454,5 +465,61 @@
 .card-container-7:nth-child(4),
 .card-container-7:nth-child(5),
 .card-container-7:nth-child(6) {
+    display: none;
+}
+
+
+/* Eight Turn */
+
+.card-container-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+    height: 52.5%;
+    /* left: 20%; */
+    z-index: 1;
+    /* border: 1px solid red; */
+    transition: none;
+    animation: none;
+}
+
+.card-container-8:nth-child(9) {
+    left: -10%;
+    /* top: 12.5%; */
+    /* transform: rotate(-30deg); */
+    transition: none;
+    z-index: 4;
+}
+
+.card-container-8:nth-child(4) {
+    left: 16%;
+    top: 12.5%;
+    transform: rotate(30deg);
+    transition: none;
+    z-index: 0;
+}
+
+.card-container-8:nth-child(8) {
+    left: -16%;
+    top: 12.5%;
+    transform: rotate(-30deg);
+    transition: none;
+}
+
+.card-container-8:nth-child(1) {
+    display: none;
+}
+
+.card-container-8:nth-child(2),
+.card-container-8:nth-child(3) {
+    display: none;
+}
+
+.card-container-8:nth-child(4),
+.card-container-8:nth-child(5),
+.card-container-8:nth-child(6),
+.card-container-8:nth-child(7) {
     display: none;
 }
