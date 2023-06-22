@@ -697,7 +697,7 @@
         left: 4%;
     }
 }
-@media only screen and (max-height: 732px) {
+@media only screen and (max-height: 732px) and (orientation: portrait) {
     .connect-info,
     .feed-1,
     .feed-2,
