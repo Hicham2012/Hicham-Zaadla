@@ -697,7 +697,7 @@
         left: 4%;
     }
 }
-@media only screen and (max-height: 735px) {
+@media only screen and (max-height: 732px) {
     .connect-info,
     .feed-1,
     .feed-2,
