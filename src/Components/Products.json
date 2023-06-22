@@ -3,6 +3,34 @@
         "id": 1,
         "class": "one",
         "pictures": "url",
+        "name": "MockBotAI",
+        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1121537562511683654/logo-v2-removebg-preview.png",
+        "colors": "FFFC2B",
+        "describtion": "Meme generator for your favorite AI tools, along with features like text to speech recognition for a better experience",
+        "link": "https://mockbotai.com/",
+        "designSystem": {
+            "fonts": {
+                "fonts-1": "Sans-serif"
+            },
+            "colors": {
+                "color-1": "FFFC2B",
+                "color-2": "231F20",
+                "color-3": "4286F5"
+            },
+            "technologies": {
+                "tech-1": "React",
+                "tech-2": "Javascript",
+                "tech-3": "AWS"
+            },
+            "insideView": {
+                "view-1": "https://cdn.discordapp.com/attachments/1110016356360917055/1111383960115757126/IMG_8617.png",
+                "view-2": "https://cdn.discordapp.com/attachments/941095160517894185/1121561096294240326/Capture_decran_2023-06-22_230226.jpg"
+            }
+        }
+    }, {
+        "id": 2,
+        "class": "two",
+        "pictures": "url",
         "name": "PayUp App",
         "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1106908214982889573/logo_1.webp",
         "colors": "FFD4C1",
@@ -15,7 +43,7 @@
             "colors": {
                 "color-1": "FFD4C1",
                 "color-2": "FFDDCE",
-                "color-3": "1D1D1D"
+                "color-3": "4286F5"
             },
             "technologies": {
                 "tech-1": "NextJS",
@@ -27,8 +55,8 @@
             }
         }
     }, {
-        "id": 2,
-        "class": "two",
+        "id": 3,
+        "class": "three",
         "pictures": "url",
         "name": "Personal website",
         "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1082372139992223804/logo-portoflio.png",
@@ -57,8 +85,8 @@
             }
         }
     }, {
-        "id": 3,
-        "class": "three",
+        "id": 4,
+        "class": "four",
         "pictures": "url",
         "name": "Lucky Shrub website",
         "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1066095276391153857/Asset_33x_3.png",
@@ -84,8 +112,8 @@
             }
         }
     }, {
-        "id": 4,
-        "class": "four",
+        "id": 5,
+        "class": "five",
         "pictures": "url",
         "name": "Verification App",
         "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067417924433870848/page-1.png",
@@ -115,8 +143,8 @@
             }
         }
     }, {
-        "id": 5,
-        "class": "five",
+        "id": 6,
+        "class": "six",
         "pictures": "",
         "name": "Responsive webpage-1",
         "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067414649701683240/page-1.png",
@@ -141,8 +169,8 @@
             }
         }
     }, {
-        "id": 6,
-        "class": "six",
+        "id": 7,
+        "class": "seven",
         "pictures": "url",
         "name": "Responsive webpage-2",
         "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067415147309715536/page-1.png",
@@ -167,8 +195,8 @@
             }
         }
     }, {
-        "id": 7,
-        "class": "seven",
+        "id": 8,
+        "class": "eight",
         "pictures": "url",
         "name": "Responsive webpage-3",
         "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067415590937034802/page-1.png",
