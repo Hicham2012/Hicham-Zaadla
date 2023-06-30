@@ -50,7 +50,7 @@ export default function Bio(props) {
         <h3 className={`${props.dark ? 'title-dark' : 'title-light'}`}>WHO</h3>
         <p style={{
           color: props.dark ? 'rgba(244, 240, 240, 0.85)' : 'rgba(0, 0, 0, 0.85)'
-        }}>I am Hicham Zaadla, a 22 year old coder who has been learning and building nearly every day for more than six months.
+        }}>I am Hicham Zaadla, a 22 year old coder who has been learning and building nearly every day for more than 2 years.
 My dream is to build <span className='magic'>meaningful</span> things and work with people from around the globe.</p>
       </div>
       </div>
