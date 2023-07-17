@@ -26,11 +26,13 @@ import data from './Products.json'
     <div id='projects' className='projects-all'>
       {/* Desktop & Ipad view */}
       <div className='projects-back' style={{
-        animation: props.time >= 28 ? 'growbg 10s ease' : 'nulll 1s ease',
+        // animation: props.time >= 28 ? 'growbg 10s ease' : 'nulll 1s ease',
+        animation: 'nulll 1s ease',
         backgroundColor: props.dark ? '#111111' : '#EAEAEA'
       }}>
         <div className='circle-gold' style={{
-          animation: props.time >= 28 ? 'grow 3s ease' : 'nulll 1s ease'
+          // animation: props.time >= 28 ? 'grow 3s ease' : 'nulll 1s ease'
+        animation: 'nulll 1s ease'
         }}></div>
       {/* <div className='acheive' style={{
         background: 'red',
