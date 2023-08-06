@@ -3,6 +3,7 @@ import React from 'react'
 import './App.css';
 import Times from './Components/Times'
 import Portfolio from './Components/Portfolio';
+import gsap from "gsap";
 
 function App() {
     const [currentHour, setHours] = React.useState()
@@ -13,11 +14,12 @@ function App() {
         setHours(hours)
             // console.log(currentHour)
     }, [currentHour])
+    
 
-    return ( <
-        >
-        { currentHour >= 8 && currentHour <= 19 ? < Portfolio / > : < Portfolio / > } { /* <Portfolio /> */ } <
-        />
+    return ( 
+        <div className="app">
+        { currentHour >= 8 && currentHour <= 19 ? < Portfolio / > : < Portfolio / > } { /* <Portfolio /> */ } 
+         </div>
     );
 }
 
