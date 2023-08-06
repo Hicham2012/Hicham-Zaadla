@@ -1,3 +1,7 @@
 body {
     background: none;
 }
+
+.app {
+    visibility: hidden;
+}
