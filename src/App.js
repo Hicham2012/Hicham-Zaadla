@@ -14,7 +14,10 @@ function App() {
         setHours(hours)
             // console.log(currentHour)
     }, [currentHour])
-    
+
+    window.addEventListener("load", () => {
+        gsap.set(".app", {autoAlpha: 1})
+    })
 
     return ( 
         <div className="app">
