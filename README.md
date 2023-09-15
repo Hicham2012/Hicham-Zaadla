@@ -1,5 +1,6 @@
-![screencapture-hicham-zaadla-vercel-app-static-media-minyatur-d735ebe5f14d542276bc-png-2023-04-15-15_03_21](https://github.com/Hicham2012/Hicham-Zaadla/assets/99765449/59933399-1188-4c46-89fe-fbe918af11d1)
+![minyatur](https://github.com/Hicham2012/Hicham-Zaadla/assets/99765449/0daa3d32-8994-40e6-9d32-e911fb5d7ff1)
 # Contents
+
 1. [Preview](#preview)
 2. [Figma design](#figma-design)
 3. [Technologies and features](#technologies-and-features)
