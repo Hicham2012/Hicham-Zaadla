@@ -6,10 +6,10 @@
 4. [Contact](#contact)
 
 # Preview
-I attached a preview video on my dribble account, feel free to [visit it](https://dribbble.com/shots/20889892-Personal-website?utm_source=Clipboard_Shot&utm_campaign=Hicham1_1&utm_content=Personal%20website&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Hicham1_1&utm_content=Personal%20website&utm_medium=Social_Share)
+I attached a preview video on my dribble account, feel free to [visit it](https://dribbble.com/shots/20889892-Personal-website?utm_source=Clipboard_Shot&utm_campaign=Hicham1_1&utm_content=Personal%20website&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Hicham1_1&utm_content=Personal%20website&utm_medium=Social_Share).
 
 # Figma design
-View [Figma design](https://www.figma.com/file/cpD4TY339hlQ6ukyj6c2b6/Portfolio?type=design&node-id=0%3A1&mode=design&t=liQwiTNlbkylz5pe-1)
+View [Figma design](https://www.figma.com/file/cpD4TY339hlQ6ukyj6c2b6/Portfolio?type=design&node-id=0%3A1&mode=design&t=liQwiTNlbkylz5pe-1).
 
 # Technologies used:
 - React
