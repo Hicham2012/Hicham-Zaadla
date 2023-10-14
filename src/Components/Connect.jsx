@@ -170,7 +170,7 @@ export default function Connect(props) {
           }}></div>
         </div>
         <div className="cube-col">
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=3xtox.Hicham@gmail.com" target="_blank" rel="noreferrer">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=zaadla.hicham@gmail.com" target="_blank" rel="noreferrer">
         <div className="cube-1" style={{
           animation: props.time > 88 ? 'cube-1-fall 1.5s linear' : 'nulll 0s linear'
         }}>
