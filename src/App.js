@@ -7,7 +7,6 @@ import gsap from "gsap";
 
 function App() {
     const [currentHour, setHours] = React.useState()
-    const [ width, setWidth ] = React.useState()
 
     React.useEffect(() => {
         const date = new Date()
@@ -19,20 +18,6 @@ function App() {
     window.addEventListener("load", () => {
         gsap.set(".app", {autoAlpha: 1})
     })
-
-    // Display websites depending on
-    // the window's width size
-    React.useEffect(() =>
-    {
-        window.addEventListener('resize', () =>
-        {
-            setWidth(window.innerWidth)
-        })
-
-
-        if(window.innerWidth >= 800)
-            window.location.replace('https://3d-zaadla.vercel.app/');
-    }, [width])
 
     return ( 
         <div className="app">
