@@ -1,9 +1,8 @@
 ![minyatur](https://github.com/Hicham2012/Hicham-Zaadla/assets/99765449/0daa3d32-8994-40e6-9d32-e911fb5d7ff1)
 ## Contents
-
 1. [Preview](#preview)
 2. [Figma design](#figma-design)
-3. [Technologies and features](#technologies-and-features)
+3. [Technologies and features](#technologies-used)
 4. [Contact](#contact)
 
 ## Preview
