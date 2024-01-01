@@ -14,7 +14,7 @@ export default function Intro(props) {
     const [dark, setDark] = useState(true)
     
 
-    props.func(dark)
+    // props.func(dark)
     // const [title, setTitle] = useState(null)
     const containerRef = useRef(null);
     const boxRef = useRef(null);
