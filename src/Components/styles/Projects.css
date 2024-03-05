@@ -1,5 +1,5 @@
 .projects-all {
-    cursor: url('https://cdn.discordapp.com/attachments/941095160517894185/1066472779240710284/Ellipse_507.png'), auto;
+    cursor: url(../../../public/orange_cursor.png), auto;
     scroll-snap-align: start;
 }
 
@@ -94,7 +94,7 @@
     background: none;
     border: none;
     font-size: 2rem;
-    cursor: url('https://cdn.discordapp.com/attachments/941095160517894185/1066471557343494245/Ellipse_507.png'), auto;
+    cursor: url(../../../public/green_cursor_bg.png), auto;
 }
 
 .left {
@@ -104,7 +104,7 @@
     background: none;
     border: none;
     font-size: 2rem;
-    cursor: url('https://cdn.discordapp.com/attachments/941095160517894185/1066471557343494245/Ellipse_507.png'), auto;
+    cursor: url(../../../public/green_cursor_bg.png), auto;
 }
 
 .right::before {

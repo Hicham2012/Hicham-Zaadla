@@ -196,7 +196,7 @@
 }
 
 .photo-1 {
-    background-image: url(https://cdn.discordapp.com/attachments/941095160517894185/1106917859701047326/f1_1.webp);
+    background-image: url(../../../public/connect_media/Lana.webp);
     background-size: 280%;
     background-position: 45% 0%;
     background-repeat: no-repeat;
@@ -210,7 +210,7 @@
 }
 
 .photo-2 {
-    background-image: url(https://cdn.discordapp.com/attachments/941095160517894185/1106917387577598012/1613674093373_1.webp);
+    background-image: url(../../../public/connect_media/Jenna.webp);
     background-size: 170%;
     background-position: 45% 0%;
     background-repeat: no-repeat;
@@ -224,7 +224,7 @@
 }
 
 .photo-3 {
-    background-image: url(https://cdn.discordapp.com/attachments/941095160517894185/1106917891678412820/f2_1.webp);
+    background-image: url(../../../public/connect_media/Juliana.webp);
     background-size: 320%;
     background-position: 34% 10%;
     background-repeat: no-repeat;
@@ -314,7 +314,7 @@
     z-index: 2;
     /* transform: rotate(0deg); */
     /* transform: rotate(180deg); */
-    background-image: url('https://cdn.discordapp.com/attachments/941095160517894185/1068625324721590433/circle-flex-body.png');
+    background-image: url('../../../public/connect_media/green-circle.png');
     /* width: 201.75px; */
     width: 12.6rem;
     height: 12.6rem;
