@@ -4,7 +4,7 @@
         "class": "one",
         "pictures": "url",
         "name": "MockBotAI",
-        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1121537562511683654/logo-v2-removebg-preview.png",
+        "logo": "../../projects_media/logo-v2-removebg-preview.png",
         "colors": "FFFC2B",
         "describtion": "Meme generator for your favorite AI tools, along with features like text to speech recognition for a better experience",
         "link": "https://mockbotai.com/",
@@ -23,8 +23,8 @@
                 "tech-3": "AWS"
             },
             "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/1110016356360917055/1111383960115757126/IMG_8617.png",
-                "view-2": "https://cdn.discordapp.com/attachments/941095160517894185/1121561096294240326/Capture_decran_2023-06-22_230226.jpg"
+                "view-1": "../../projects_media/mockbot_hero.jpg",
+                "view-2": "../../projects_media/Capture_decran_2023-06-22_230226.jpg"
             }
         }
     }, {
@@ -32,7 +32,7 @@
         "class": "two",
         "pictures": "url",
         "name": "PayUp App",
-        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1106908214982889573/logo_1.webp",
+        "logo": "../../projects_media/payup_logo.webp",
         "colors": "FFD4C1",
         "describtion": "A web3 decentralized app built on Flow blockchain to provide users with better tools to choose good clients. (WIP)",
         "link": "https://pay-up-ten.vercel.app/",
@@ -51,7 +51,7 @@
                 "tech-3": "Blockchain"
             },
             "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1106909175126163487/payup-homepage_1.webp"
+                "view-1": "../../projects_media/payup-homepage_1.webp"
             }
         }
     }, {
@@ -59,7 +59,7 @@
         "class": "three",
         "pictures": "url",
         "name": "Personal website",
-        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1082372139992223804/logo-portoflio.png",
+        "logo": "../../projects_media/logo-portoflio.png",
         "colors": "0C0D0D",
         "describtion": "This is my personal website that I specially created to share my vision, culture and my work.",
         "link": "https://hicham-zaadla.vercel.app/",
@@ -79,9 +79,9 @@
                 "tech-4": "React"
             },
             "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1106911247108153454/Capture_decran_2023-01-28_194138.webp",
-                "view-2": "https://cdn.discordapp.com/attachments/941095160517894185/1106911542185820290/Capture_decran_2023-01-28_195025.webp",
-                "view-3": "https://cdn.discordapp.com/attachments/941095160517894185/1106911847355007097/Capture_decran_2023-01-28_194919.webp"
+                "view-1": "../../projects_media/about_section.webp",
+                "view-2": "../../projects_media/connect_section.webp",
+                "view-3": "../../projects_media/resume_section.webp"
             }
         }
     }, {
@@ -89,7 +89,7 @@
         "class": "four",
         "pictures": "url",
         "name": "Lucky Shrub website",
-        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1066095276391153857/Asset_33x_3.png",
+        "logo": "../../projects_media/Asset_33x_3.png",
         "colors": "F1B93E",
         "describtion": "Lucky Shrub is a gardening company made by a married couple who are into providing clients with a unique experience of it’s own.",
         "link": "https://lucky-shrub-website.vercel.app/",
@@ -108,7 +108,7 @@
                 "tech-3": "Javascript"
             },
             "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1106912951279038524/screencapture-127-0-0-1-5501-Home-html-2022-12-29-20_28_04.webp"
+                "view-1": "../../projects_media/lucky_shrub_homepage.webp"
             }
         }
     }, {
@@ -116,7 +116,7 @@
         "class": "five",
         "pictures": "url",
         "name": "Verification App",
-        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067417924433870848/page-1.png",
+        "logo": "../../projects_media/verification_dapp_logo.png",
         "colors": "7A7373",
         "describtion": "React app that receives user's crypto wallets, it's a part of verification bot system made for some.place that has nearly 3000 members.",
         "link": "https://verification-bot.someplace.repl.co/auth/discord#token_type=Bearer&access_token=qZmvCEEoeBQMMysyDxLc6Wydy4luYs&expires_in=604800&scope=identify",
@@ -138,8 +138,8 @@
                 "tech-6": "MongoDB"
             },
             "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1106914230768242789/new.webp",
-                "view-2": "https://cdn.discordapp.com/attachments/941095160517894185/1106914582846525482/Capture_decran_2023-01-24_180617.webp"
+                "view-1": "../../projects_media/new.webp",
+                "view-2": "../../projects_media/Capture_decran_2023-01-24_180617.webp"
             }
         }
     }, {
@@ -147,7 +147,7 @@
         "class": "six",
         "pictures": "",
         "name": "Responsive webpage-1",
-        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067414649701683240/page-1.png",
+        "logo": "../../projects_media/1_3.png",
         "colors": "14253D",
         "describtion": "Responsive webpage 1/3",
         "link": "https://nft-preview-card-component-eight-green.vercel.app/",
@@ -165,7 +165,7 @@
                 "tech-2": "CSS"
             },
             "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1106915178009862144/nft-preview.webp"
+                "view-1": "../../projects_media/nft-preview.webp"
             }
         }
     }, {
@@ -173,7 +173,7 @@
         "class": "seven",
         "pictures": "url",
         "name": "Responsive webpage-2",
-        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067415147309715536/page-1.png",
+        "logo": "../../projects_media/2_3.png",
         "colors": "F4EAA1",
         "describtion": "Responsive webpage 2/3",
         "link": "https://challenge2-12.vercel.app/",
@@ -191,7 +191,7 @@
                 "tech-2": "CSS"
             },
             "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1106915392305246278/new-1.webp"
+                "view-1": "../../projects_media/product.webp"
             }
         }
     }, {
@@ -199,7 +199,7 @@
         "class": "eight",
         "pictures": "url",
         "name": "Responsive webpage-3",
-        "logo": "https://cdn.discordapp.com/attachments/941095160517894185/1067415590937034802/page-1.png",
+        "logo": "../../projects_media/3_3.png",
         "colors": "3AB1B4",
         "describtion": "Responsive webpage 3/3",
         "link": "https://hicham2012.github.io/",
@@ -217,7 +217,7 @@
                 "tech-2": "CSS"
             },
             "insideView": {
-                "view-1": "https://cdn.discordapp.com/attachments/941095160517894185/1106915926860898374/new-2.webp"
+                "view-1": "../../projects_media/code.webp"
             }
         }
     }]

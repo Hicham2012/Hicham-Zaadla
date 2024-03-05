@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
     /* overflow-x: hidden; */
-    cursor: url('https://cdn.discordapp.com/attachments/941095160517894185/1066472119539601509/Ellipse_507.png'), auto;
+    cursor: url(../../../public/green_cursor.png), auto;
     scroll-snap-type: y proximity;
 }
 

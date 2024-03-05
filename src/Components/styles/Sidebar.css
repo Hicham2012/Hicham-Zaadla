@@ -43,7 +43,7 @@
         /* animation: mask-nav-rev 1s steps(7); */
         /* mask-image: url(./Times\ pics/mask-nav/mask-navbar.png); */
         mask-size: cover;
-        cursor: url('https://cdn.discordapp.com/attachments/941095160517894185/1066472779240710284/Ellipse_507.png'), auto;
+        cursor: url(../../../public/orange_cursor.png), auto;
     }
     
     ul {

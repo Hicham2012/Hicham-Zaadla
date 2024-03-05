@@ -16,7 +16,7 @@ export default function Resume(props) {
               animation: props.time > 68 ? 'reveal-arrow 2s ease' : 'nulll 0s linear',
               backgroundColor: props.dark ? '#0C0D0D' : '#DDEFDD'
             }}></div>
-            <img className='arrow-green' src="https://cdn.discordapp.com/attachments/941095160517894185/1068245262188937276/Line_57.png" alt="arrow"/>
+            <img className='arrow-green' src="../../resume/arrow.png" alt="arrow"/>
             </div>
           <div className='graph-cont'>
             
@@ -130,40 +130,40 @@ export default function Resume(props) {
             backgroundColor: props.dark ? '#0C0D0D' : '#EAEAEA'
           }}>
           <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176676011376750/Google_Logo_2015_-_640x217_2.png" alt="Google" />
+              <img src="../../resume/Google_Logo.png" alt="Google" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176957558226964/Meta-Logo_2.png" alt="Meta" />
+              <img src="../../resume/Meta-Logo.png" alt="Meta" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177134314606672/University-of-Washington-logo_2.png" alt="Washington University" />
+              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177341811007539/512px-FreeCodeCamp_logo_2.png" alt="Freecodecamp" />
+              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176676011376750/Google_Logo_2015_-_640x217_2.png" alt="Google" />
+              <img src="../../resume/Google_Logo.png" alt="Google" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176957558226964/Meta-Logo_2.png" alt="Meta" />
+              <img src="../../resume/Meta-Logo.png" alt="Meta" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177134314606672/University-of-Washington-logo_2.png" alt="Washington University" />
+              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177341811007539/512px-FreeCodeCamp_logo_2.png" alt="Freecodecamp" />
+              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176676011376750/Google_Logo_2015_-_640x217_2.png" alt="Google" />
+              <img src="../../resume/Google_Logo.png" alt="Google" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176957558226964/Meta-Logo_2.png" alt="Meta" />
+              <img src="../../resume/Meta-Logo.png" alt="Meta" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177134314606672/University-of-Washington-logo_2.png" alt="Washington University" />
+              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177341811007539/512px-FreeCodeCamp_logo_2.png" alt="Freecodecamp" />
+              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
             </div>
           </div>
         </div>
@@ -185,40 +185,40 @@ export default function Resume(props) {
             backgroundColor: props.dark ? '#0C0D0D' : '#EAEAEA'
           }}>
           <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176676011376750/Google_Logo_2015_-_640x217_2.png" alt="Google" />
+              <img src="../../resume/Google_Logo.png" alt="Google" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176957558226964/Meta-Logo_2.png" alt="Meta" />
+              <img src="../../resume/Meta-Logo.png" alt="Meta" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177134314606672/University-of-Washington-logo_2.png" alt="Washington University" />
+              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177341811007539/512px-FreeCodeCamp_logo_2.png" alt="Freecodecamp" />
+              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176676011376750/Google_Logo_2015_-_640x217_2.png" alt="Google" />
+              <img src="../../resume/Google_Logo.png" alt="Google" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176957558226964/Meta-Logo_2.png" alt="Meta" />
+              <img src="../../resume/Meta-Logo.png" alt="Meta" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177134314606672/University-of-Washington-logo_2.png" alt="Washington University" />
+              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177341811007539/512px-FreeCodeCamp_logo_2.png" alt="Freecodecamp" />
+              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176676011376750/Google_Logo_2015_-_640x217_2.png" alt="Google" />
+              <img src="../../resume/Google_Logo.png" alt="Google" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068176957558226964/Meta-Logo_2.png" alt="Meta" />
+              <img src="../../resume/Meta-Logo.png" alt="Meta" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177134314606672/University-of-Washington-logo_2.png" alt="Washington University" />
+              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="https://cdn.discordapp.com/attachments/941095160517894185/1068177341811007539/512px-FreeCodeCamp_logo_2.png" alt="Freecodecamp" />
+              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
             </div>
           </div>
         </div>

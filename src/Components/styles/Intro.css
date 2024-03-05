@@ -57,7 +57,7 @@
     /* transition: transform 1s ease; */
     position: relative;
     animation: one 1.2s forwards;
-    cursor: url('https://cdn.discordapp.com/attachments/941095160517894185/1066490169189994666/star.png'), auto;
+    cursor: url(../../../public/intro_media/star.png), auto;
 }
 
 @keyframes one {
