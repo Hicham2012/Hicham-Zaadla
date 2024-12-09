@@ -1,0 +1,21 @@
+.note-container {
+    background-color: #22FF38;
+    width: 4rem;
+    position: fixed;
+    top: 24%;
+    right: 0%;
+    z-index: 999;
+    color: #F4F0F0;
+    text-align: left;
+}
+
+.note-container > h1 {
+    font-weight: 600;
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .note-container {
+        width: 3rem;
+    }
+}

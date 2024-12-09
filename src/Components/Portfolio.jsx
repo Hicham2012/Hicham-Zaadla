@@ -7,6 +7,8 @@ import Projects from './Projects'
 import Sidebar from './Sidebar'
 import Resume from './Resume'
 import Connect from './Connect'
+import Note from './Note'
+
 
 export default function Portfolio() {
   const [dark, setDark] = React.useState(true)
@@ -72,6 +74,7 @@ React.useEffect(() => {
     <div className='portfolio'>
       <Sidebar  dark={dark}/>
       <Guide />
+      <Note />
       <Rotate />
       <header>
       <Intro 

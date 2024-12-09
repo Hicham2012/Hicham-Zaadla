@@ -137,14 +137,14 @@
         color: #1B8926;
     }
     
-    h1::before {
+    .warning::before {
         content: url(https://cdn.discordapp.com/attachments/941095160517894185/1062386270032109670/Frame_394.png);
         display: flex;
         align-items: center;
         justify-content: center;
     }
     
-    h1::after {
+    .warning::after {
         content: 'Please enjoy time with your loved ones insead.';
         display: block;
     }
