@@ -343,7 +343,7 @@
 
 .view-six::after,
 .view-seven::after {
-    content: url(/projects_media/face-smile.svg);
+    content: url(../../assets/projects_media/face-smile.svg);
     margin: 0;
     padding: 0;
     position: absolute;
@@ -351,7 +351,7 @@
 
 .view-two::after,
 .view-three::after {
-    content: url(/projects_media/arrow-8.svg);
+    content: url(../../assets/projects_media/arrow-8.svg);
     margin: 0;
     padding: 0;
     position: absolute;
@@ -536,7 +536,7 @@ fieldset>legend>h5 {
         mask-repeat: no-repeat;
     }
     .projects-back {
-        cursor: url('/projects_media/ellipse-507.svg') 16 16, auto;
+        cursor: url('../../assets/projects_media/ellipse-507.svg') 16 16, auto;
         width: 100%;
         height: 80vh;
     }
