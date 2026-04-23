@@ -14,9 +14,15 @@ function App() {
             // console.log(currentHour)
     }, [currentHour])
 
-    window.addEventListener("load", () => {
-        gsap.set(".app", {autoAlpha: 1})
-    })
+    React.useLayoutEffect(() => {
+        const show = () => gsap.set(".app", { autoAlpha: 1 })
+        if (document.readyState === "complete") {
+            show()
+            return undefined
+        }
+        window.addEventListener("load", show)
+        return () => window.removeEventListener("load", show)
+    }, [])
 
     return ( 
         <div className="app">

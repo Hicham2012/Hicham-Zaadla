@@ -1,6 +1,8 @@
 import React from 'react'
 import './styles/Resume.css'
 
+const resumeAsset = (file) => `${process.env.PUBLIC_URL || ""}/resume/${file}`
+
 export default function Resume(props) {
   return (
     <div id='resume' className='resume' style={{
@@ -16,7 +18,7 @@ export default function Resume(props) {
               animation: props.time > 68 ? 'reveal-arrow 2s ease' : 'nulll 0s linear',
               backgroundColor: props.dark ? '#0C0D0D' : '#DDEFDD'
             }}></div>
-            <img className='arrow-green' src="../../resume/arrow.png" alt="arrow"/>
+            <img className='arrow-green' src={resumeAsset("arrow.png")} alt="arrow"/>
             </div>
           <div className='graph-cont'>
             
@@ -130,40 +132,40 @@ export default function Resume(props) {
             backgroundColor: props.dark ? '#0C0D0D' : '#EAEAEA'
           }}>
           <div className="slide">
-              <img src="../../resume/Google_Logo.png" alt="Google" />
+              <img src={resumeAsset("Google_Logo.png")} alt="Google" />
             </div>
             <div className="slide">
-              <img src="../../resume/Meta-Logo.png" alt="Meta" />
+              <img src={resumeAsset("Meta-Logo.png")} alt="Meta" />
             </div>
             <div className="slide">
-              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
+              <img src={resumeAsset("University-of-Washington-Logo.png")} alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
+              <img src={resumeAsset("FreeCodeCamp_Logo.png")} alt="Freecodecamp" />
             </div>
             <div className="slide">
-              <img src="../../resume/Google_Logo.png" alt="Google" />
+              <img src={resumeAsset("Google_Logo.png")} alt="Google" />
             </div>
             <div className="slide">
-              <img src="../../resume/Meta-Logo.png" alt="Meta" />
+              <img src={resumeAsset("Meta-Logo.png")} alt="Meta" />
             </div>
             <div className="slide">
-              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
+              <img src={resumeAsset("University-of-Washington-Logo.png")} alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
+              <img src={resumeAsset("FreeCodeCamp_Logo.png")} alt="Freecodecamp" />
             </div>
             <div className="slide">
-              <img src="../../resume/Google_Logo.png" alt="Google" />
+              <img src={resumeAsset("Google_Logo.png")} alt="Google" />
             </div>
             <div className="slide">
-              <img src="../../resume/Meta-Logo.png" alt="Meta" />
+              <img src={resumeAsset("Meta-Logo.png")} alt="Meta" />
             </div>
             <div className="slide">
-              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
+              <img src={resumeAsset("University-of-Washington-Logo.png")} alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
+              <img src={resumeAsset("FreeCodeCamp_Logo.png")} alt="Freecodecamp" />
             </div>
           </div>
         </div>
@@ -185,40 +187,40 @@ export default function Resume(props) {
             backgroundColor: props.dark ? '#0C0D0D' : '#EAEAEA'
           }}>
           <div className="slide">
-              <img src="../../resume/Google_Logo.png" alt="Google" />
+              <img src={resumeAsset("Google_Logo.png")} alt="Google" />
             </div>
             <div className="slide">
-              <img src="../../resume/Meta-Logo.png" alt="Meta" />
+              <img src={resumeAsset("Meta-Logo.png")} alt="Meta" />
             </div>
             <div className="slide">
-              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
+              <img src={resumeAsset("University-of-Washington-Logo.png")} alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
+              <img src={resumeAsset("FreeCodeCamp_Logo.png")} alt="Freecodecamp" />
             </div>
             <div className="slide">
-              <img src="../../resume/Google_Logo.png" alt="Google" />
+              <img src={resumeAsset("Google_Logo.png")} alt="Google" />
             </div>
             <div className="slide">
-              <img src="../../resume/Meta-Logo.png" alt="Meta" />
+              <img src={resumeAsset("Meta-Logo.png")} alt="Meta" />
             </div>
             <div className="slide">
-              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
+              <img src={resumeAsset("University-of-Washington-Logo.png")} alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
+              <img src={resumeAsset("FreeCodeCamp_Logo.png")} alt="Freecodecamp" />
             </div>
             <div className="slide">
-              <img src="../../resume/Google_Logo.png" alt="Google" />
+              <img src={resumeAsset("Google_Logo.png")} alt="Google" />
             </div>
             <div className="slide">
-              <img src="../../resume/Meta-Logo.png" alt="Meta" />
+              <img src={resumeAsset("Meta-Logo.png")} alt="Meta" />
             </div>
             <div className="slide">
-              <img src="../../resume/University-of-Washington-Logo.png" alt="Washington University" />
+              <img src={resumeAsset("University-of-Washington-Logo.png")} alt="Washington University" />
             </div>
             <div className="slide">
-              <img src="../../resume/FreeCodeCamp_Logo.png" alt="Freecodecamp" />
+              <img src={resumeAsset("FreeCodeCamp_Logo.png")} alt="Freecodecamp" />
             </div>
           </div>
         </div>

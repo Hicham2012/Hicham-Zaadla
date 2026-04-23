@@ -11,7 +11,7 @@
     }
     
     .deco {
-        background-image: url(https://cdn.discordapp.com/attachments/941095160517894185/1062397925738676284/Frame.png);
+        background-image: url(./Times\ pics/Frame.svg);
         width: 20%;
         height: 20%;
         position: absolute;
@@ -20,7 +20,7 @@
     }
     
     .deco-2 {
-        background-image: url(https://cdn.discordapp.com/attachments/941095160517894185/1062397925738676284/Frame.png);
+        background-image: url(./Times\ pics/Frame.svg);
         width: 20%;
         height: 20%;
         position: absolute;
@@ -138,7 +138,7 @@
     }
     
     .warning::before {
-        content: url(https://cdn.discordapp.com/attachments/941095160517894185/1062386270032109670/Frame_394.png);
+        content: url(./Times\ pics/Frame326.svg);
         display: flex;
         align-items: center;
         justify-content: center;

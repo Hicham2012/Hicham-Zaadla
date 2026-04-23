@@ -30,7 +30,7 @@ export default function Connect(props) {
       }}>If the vibe matches, we will build cool stuff</p>
       </div>
       <div className="connect-feedbacks">
-      <img className="tree" src={props.dark ? "../../connect_media/dark-tree.png" : "../../connect_media/white-tree.png"} alt="tree" />
+      <img className="tree" src={props.dark ? `${process.env.PUBLIC_URL || ""}/connect_media/dark-tree.png` : `${process.env.PUBLIC_URL || ""}/connect_media/white-tree.png`} alt="tree" />
         {/* Feed-1 */}
         <div className="feed-1" style={{
           backgroundColor: props.dark ? 'rgba(217, 217, 217, 0.1)' : 'rgba(63, 63, 63, 0.08)'
