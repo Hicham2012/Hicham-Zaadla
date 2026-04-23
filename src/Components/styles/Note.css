@@ -1,12 +1,13 @@
 .note-container {
     background-color: #22FF38;
-    width: 4rem;
+    width: 9rem;
     position: fixed;
-    top: 24%;
-    right: 0%;
+    top: 5%;
+    right: -1%;
     z-index: 999;
     color: #F4F0F0;
     text-align: left;
+    font-size: xx-small;
 }
 
 .note-container > h1 {
